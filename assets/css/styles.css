@@ -1,11 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
 
+
+:root {
+    --color-primary: #fff;
+    --color-primary-hover: #dac1c1;
+    --color-secondary: #f73685;
+    --color-secondary-hover: #bb0852;
+    --color-tertiary: #fce89f;
+    --color-tertiary-hover: #fcd650;
+    --color-headings: #160011;
+    --color-body: #3c0042;
+}
+
 *,
 *::after,
 *::before {
     box-sizing: border-box;
 }
 
+/* Typography */
+
 body {
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    color: var(--color-body)
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(--color-headings);
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
