@@ -61,12 +61,16 @@ nav li {
 li>a {
     text-decoration: none;
     color: var(--color-primary);
-    font-weight: 900;
     transition: color 0.3s;
+    font-size: 20px;
 }
 
 li>a:hover {
     color: var(--color-primary-hover);
+}
+
+li>.active {
+    font-weight: 900;
 }
 
 .nav__logo {
