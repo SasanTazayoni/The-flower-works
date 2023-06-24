@@ -93,4 +93,9 @@ nav>a {
     font-size: 50px;
     padding: 20px;
     color: var(--color-secondary);
+    transition: color 0.3s;
+}
+
+nav>a:hover {
+    color: var(--color-secondary-hover);
 }
