@@ -59,21 +59,6 @@ nav {
     align-items: center;
 }
 
-.nav__component {
-    display: flex;
-}
-
-.nav__logo {
-    height: 140px;
-    width: 140px;
-    border-radius: 50%;
-    padding: 5px;
-}
-
-.nav__logo-small {
-    display: none;
-}
-
 nav li {
     list-style: none;
     padding: 20px;
@@ -91,6 +76,17 @@ li>a:hover {
 
 li>.active {
     font-weight: 900;
+}
+
+.nav__logo {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.nav__component {
+    display: flex;
 }
 
 nav>a {
@@ -125,7 +121,7 @@ nav>a:hover {
     background: var(--color-primary);
     border-radius: 0.3rem;
     padding: 0.5rem;
-    opacity: 0.5;
+    opacity: 0.6;
     text-align: center;
     width: max-content;
 }
@@ -165,18 +161,11 @@ nav>a:hover {
 }
 
 @media screen and (max-width: 768px) {
-    .nav__logo {
-        display: none;
-    }
-
-    .nav__logo-small {
-        display: inline;
-        height: 80px;
-        width: 80px;
+    nav li {
         padding: 10px;
     }
 
-    .nav__menu {
-        display: none;
+    li>a {
+        font-size: 14px;
     }
 }
