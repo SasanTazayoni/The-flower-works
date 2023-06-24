@@ -91,11 +91,41 @@ li>.active {
 
 nav>a {
     font-size: 50px;
-    padding: 20px;
     color: var(--color-secondary);
     transition: color 0.3s;
+    margin-right: 60px;
 }
 
 nav>a:hover {
     color: var(--color-secondary-hover);
+}
+
+.nav__instagram-link {
+    position: relative;
+}
+
+.nav__instagram-link::before,
+.nav__instagram-link::after {
+    --scale: 0;
+    position: absolute;
+    left: 50%;
+    top: -0.25rem;
+    font-size: 12px;
+    transform: translateX(-50%) translateY(180%) scale(var(--scale));
+    transition: 0.2s transform;
+}
+
+.nav__instagram-link::before {
+    content: attr(data-tooltip);
+    color: var(--color-tertiary);
+    background: var(--color-primary);
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    opacity: 0.6;
+    text-align: center;
+    width: max-content;
+}
+
+.nav__instagram-link:hover::before {
+    --scale: 1;
 }
