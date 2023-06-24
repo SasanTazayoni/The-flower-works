@@ -109,9 +109,8 @@ nav>a:hover {
     --scale: 0;
     position: absolute;
     left: 50%;
-    top: -0.25rem;
     font-size: 12px;
-    transform: translateX(-50%) translateY(180%) scale(var(--scale));
+    transform: translateX(-50%) translateY(160%) scale(var(--scale));
     transition: 0.2s transform;
     transform-origin: top center;
 }
@@ -129,4 +128,34 @@ nav>a:hover {
 
 .nav__instagram-link:hover::before {
     --scale: 1;
+}
+
+@media screen and (max-width: 1024px) {
+    nav li {
+        padding: 15px;
+    }
+
+    li>a {
+        font-size: 16px;
+    }
+
+    .nav__logo {
+        height: 120px;
+        width: 120px;
+    }
+
+    nav>a {
+        font-size: 40px;
+        margin-right: 50px;
+    }
+
+    .nav__instagram-link::before,
+    .nav__instagram-link::after {
+        font-size: 11px;
+        transform: translateX(-50%) translateY(100%) scale(var(--scale));
+    }
+
+    .nav__instagram-link::before {
+        width: 100px;
+    }
 }
