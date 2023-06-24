@@ -2,14 +2,16 @@
 
 
 :root {
-    --color-primary: #fff;
-    --color-primary-hover: #dac1c1;
+    --color-primary: #8300ee;
+    --color-primary-hover: #540397;
     --color-secondary: #e2969a;
     --color-secondary-hover: #f73685;
     --color-tertiary: #fce89f;
     --color-tertiary-hover: #fcd650;
     --color-headings: #160011;
     --color-body: #3c0042;
+    --block-light: #fff;
+    --block-grey: #dac1c1;
 }
 
 *,
@@ -58,6 +60,12 @@ nav li {
 
 li>a {
     text-decoration: none;
+    color: var(--color-primary);
+    font-weight: 900;
+}
+
+li>a:hover {
+    color: var(--color-primary-hover);
 }
 
 .nav__logo {
