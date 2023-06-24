@@ -3,7 +3,7 @@
 
 :root {
     --color-primary: #8300ee;
-    --color-primary-hover: #540397;
+    --color-primary-hover: #ac68e4;
     --color-secondary: #e2969a;
     --color-secondary-hover: #f73685;
     --color-tertiary: #fce89f;
@@ -62,6 +62,7 @@ li>a {
     text-decoration: none;
     color: var(--color-primary);
     font-weight: 900;
+    transition: color 0.3s;
 }
 
 li>a:hover {
