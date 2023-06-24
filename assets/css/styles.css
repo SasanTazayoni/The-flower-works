@@ -59,6 +59,21 @@ nav {
     align-items: center;
 }
 
+.nav__component {
+    display: flex;
+}
+
+.nav__logo {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.nav__logo-small {
+    display: none;
+}
+
 nav li {
     list-style: none;
     padding: 20px;
@@ -76,17 +91,6 @@ li>a:hover {
 
 li>.active {
     font-weight: 900;
-}
-
-.nav__logo {
-    height: 140px;
-    width: 140px;
-    border-radius: 50%;
-    padding: 5px;
-}
-
-.nav__component {
-    display: flex;
 }
 
 nav>a {
@@ -160,3 +164,19 @@ nav>a:hover {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .nav__logo {
+        display: none;
+    }
+
+    .nav__logo-small {
+        display: inline;
+        height: 80px;
+        width: 80px;
+        padding: 10px;
+    }
+
+    .nav__menu {
+        display: none;
+    }
+}
