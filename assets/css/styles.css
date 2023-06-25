@@ -125,7 +125,7 @@ a>i:hover {
 }
 
 .instagram-link::before {
-    content: attr(data-tooltip);
+    content: attr(data-instagram-tooltip);
     color: var(--color-tertiary);
     background: var(--color-primary);
     border-radius: 0.3rem;
@@ -229,5 +229,35 @@ a>i:hover {
 
     .collapsible__content.collapsible--expanded {
         display: block;
+    }
+
+    .collapsible__toggler {
+        position: relative;
+    }
+
+    .collapsible__toggler::before,
+    .collapsible__toggler::after {
+        --scale: 0;
+        position: absolute;
+        left: 50%;
+        font-size: 12px;
+        transform: translateX(-50%) translateY(140%) scale(var(--scale));
+        transition: 0.2s transform;
+        transform-origin: top center;
+    }
+
+    .collapsible__toggler::before {
+        content: attr(data-menu-tooltip);
+        color: var(--color-tertiary);
+        background: var(--color-primary);
+        border-radius: 0.3rem;
+        padding: 0.5rem;
+        opacity: 0.5;
+        text-align: center;
+        width: max-content;
+    }
+
+    .collapsible__toggler:hover::before {
+        --scale: 1;
     }
 }
