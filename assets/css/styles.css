@@ -57,6 +57,7 @@ nav {
     background-color: var(--color-tertiary);
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .nav__component {
@@ -143,7 +144,12 @@ a>i:hover {
 }
 
 .collapsible__content {
+    width: 100%;
     display: none;
+}
+
+.collapsible__toggler {
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1024px) {
@@ -219,5 +225,9 @@ a>i:hover {
 
     .collapsible__toggler>i {
         display: inline-block;
+    }
+
+    .collapsible__content.collapsible--expanded {
+        display: block;
     }
 }
