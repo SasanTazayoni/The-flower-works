@@ -87,8 +87,14 @@ li>a {
     font-size: 20px;
 }
 
-li>a:hover {
+li i {
+    fill: var(--color-primary);
+}
+
+li>a:hover,
+li>a:hover i {
     color: var(--color-primary-hover);
+    fill: var(--color-primary-hover);
 }
 
 li>.active {
@@ -99,13 +105,13 @@ div>.instagram-link {
     margin-right: 60px;
 }
 
-a>i {
+.instagram-link>i {
     font-size: 50px;
     color: var(--color-secondary);
     transition: color 0.3s;
 }
 
-a>i:hover {
+.instagram-link>i:hover {
     color: var(--color-secondary-hover);
 }
 
@@ -152,6 +158,16 @@ a>i:hover {
     cursor: pointer;
 }
 
+ul>.nav__item {
+    text-align: center;
+    border-bottom: 0.5px solid #d8d0d3;
+}
+
+.nav__item i {
+    font-size: 16px;
+
+}
+
 @media screen and (max-width: 1024px) {
     nav li {
         padding: 15px;
@@ -170,7 +186,7 @@ a>i:hover {
         margin-right: 50px;
     }
 
-    a>i {
+    .instagram-link>i {
         font-size: 40px;
     }
 
@@ -209,13 +225,13 @@ a>i:hover {
         display: none;
     }
 
-    div>i {
+    .collapsible__toggler>i {
         font-size: 40px;
         color: var(--color-secondary);
         transition: 0.3s;
     }
 
-    div>i:hover {
+    .collapsible__toggler>i:hover {
         color: var(--color-secondary-hover);
     }
 
