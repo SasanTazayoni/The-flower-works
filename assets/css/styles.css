@@ -284,3 +284,61 @@ ul>.nav__item {
         --scale: 1;
     }
 }
+
+@media screen and (max-width: 428px) {
+    nav li {
+        padding: 12px;
+    }
+
+    div>.instagram-link {
+        margin-right: 15px;
+    }
+
+    div>.collapsible__toggler {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .nav__logo--small {
+        height: 60px;
+        width: 60px;
+        padding: 8px;
+    }
+
+    div>.instagram-link {
+        margin-right: 12px;
+    }
+
+    div>.collapsible__toggler {
+        margin-right: 12px;
+    }
+
+    .instagram-link>i {
+        font-size: 30px;
+    }
+
+    .collapsible__toggler>i {
+        font-size: 30px;
+    }
+
+    .collapsible__toggler::before,
+    .collapsible__toggler::after {
+        font-size: 10px;
+        transform: translateX(-50%) translateY(140%) scale(var(--scale));
+    }
+
+    .collapsible__toggler::before {
+        padding: 0.3rem;
+    }
+
+    .instagram-link::before,
+    .instagram-link::after {
+        font-size: 10px;
+        transform: translateX(-50%) translateY(90%) scale(var(--scale));
+    }
+
+    .instagram-link::before {
+        padding: 0.3rem;
+    }
+}
