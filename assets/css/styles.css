@@ -342,3 +342,9 @@ ul>.nav__item {
         padding: 0.3rem;
     }
 }
+
+@media screen and (max-width: 324px) {
+    nav li {
+        padding: 10px;
+    }
+}
