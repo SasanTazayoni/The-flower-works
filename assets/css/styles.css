@@ -159,7 +159,7 @@ div>.instagram-link {
 }
 
 ul>.nav__item {
-    text-align: center;
+    text-align: left;
     border-bottom: 0.5px solid #d8d0d3;
 }
 
@@ -243,8 +243,15 @@ ul>.nav__item {
         display: inline-block;
     }
 
-    .collapsible__content.collapsible--expanded {
+    .collapsible__content {
         display: block;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s;
+    }
+
+    .collapsible__content.collapsible--expanded {
+        max-height: 100vh;
     }
 
     .collapsible__toggler {
