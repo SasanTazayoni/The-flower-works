@@ -103,6 +103,18 @@ h2 {
     margin-bottom: 60px;
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 372px) {
+    .container {
+        margin-bottom: 25px;
+    }
+}
+
 /* Blocks */
 
 .block,
@@ -120,6 +132,18 @@ h2 {
 
 .block__header {
     margin: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .block__header {
+        margin: 15px 0;
+    }
+}
+
+@media screen and (max-width: 372px) {
+    .block__header {
+        margin: 10px 0 12px 0;
+    }
 }
 
 /* Links */
