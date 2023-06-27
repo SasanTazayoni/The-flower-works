@@ -364,7 +364,7 @@ ul>.nav__item {
     background: url(../images/hero-image-xlarge.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    animation: hero-zoom 5s ease-in-out forwards;
+    animation: hero-zoom 3s ease-in-out forwards;
 }
 
 @keyframes hero-zoom {
@@ -385,7 +385,7 @@ ul>.nav__item {
     width: 100%;
     background-color: rgba(255, 255, 255, 1);
     opacity: 1;
-    animation: fade-out 5s ease-in-out forwards;
+    animation: fade-out 3s ease-in-out forwards;
 }
 
 @keyframes fade-out {
