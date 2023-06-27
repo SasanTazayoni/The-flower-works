@@ -49,9 +49,17 @@ h1 {
     line-height: 90px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 @media screen and (max-width: 1024px) {
     h1 {
         font-size: 80px;
+    }
+
+    h2 {
+        font-size: 32px;
     }
 }
 
@@ -60,12 +68,30 @@ h1 {
         font-size: 64px;
         line-height: 70px;
     }
+
+    h2 {
+        font-size: 28px;
+    }
 }
 
 @media screen and (max-width: 428px) {
     h1 {
         font-size: 48px;
         line-height: 56px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 372px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 20px;
     }
 }
 
