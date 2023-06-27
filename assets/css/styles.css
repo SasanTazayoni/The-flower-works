@@ -12,7 +12,6 @@
     --color-body: #3c0042;
     --block-light: #fff;
     --block-grey: #e6e6e9;
-    ;
 }
 
 *,
@@ -75,6 +74,7 @@ h1 {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 60px;
 }
 
 /* Blocks */
@@ -93,7 +93,7 @@ h1 {
 }
 
 .block__header {
-    margin-top: 20px;
+    margin: 20px 0;
 }
 
 /* Links */
@@ -535,3 +535,5 @@ ul>.nav__item {
         font-size: 18px;
     }
 }
+
+/* About block */
