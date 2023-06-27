@@ -31,6 +31,7 @@ html {
 
 body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 24px;
     color: var(--color-body);
     margin: 0;
     padding: 0;
@@ -54,6 +55,10 @@ h2 {
 }
 
 @media screen and (max-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+
     h1 {
         font-size: 80px;
     }
@@ -64,6 +69,10 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
     h1 {
         font-size: 64px;
         line-height: 70px;
@@ -75,6 +84,10 @@ h2 {
 }
 
 @media screen and (max-width: 428px) {
+    body {
+        font-size: 14px;
+    }
+
     h1 {
         font-size: 48px;
         line-height: 56px;
@@ -86,6 +99,10 @@ h2 {
 }
 
 @media screen and (max-width: 372px) {
+    body {
+        font-size: 12px;
+    }
+
     h1 {
         font-size: 40px;
     }
@@ -141,6 +158,7 @@ h2 {
 }
 
 @media screen and (max-width: 372px) {
+
     .block,
     .block--grey {
         padding: 16px;
