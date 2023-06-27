@@ -110,7 +110,7 @@ nav li {
 li>a {
     color: var(--color-primary);
     transition: color 0.3s;
-    font-size: 20px;
+    font-size: 28px;
 }
 
 li i {
@@ -201,7 +201,7 @@ ul>.nav__item {
     }
 
     li>a {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .nav__logo {
@@ -317,6 +317,10 @@ ul>.nav__item {
 @media screen and (max-width: 428px) {
     nav li {
         padding: 12px;
+    }
+
+    li>a {
+        font-size: 16px;
     }
 
     div>.instagram-link {
