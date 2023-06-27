@@ -69,6 +69,13 @@ h1 {
     }
 }
 
+/* Containers */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /* Links */
 
 a {
