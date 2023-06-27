@@ -353,13 +353,13 @@ ul>.nav__item {
 /* Hero image */
 
 .hero__container {
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     overflow: hidden;
 }
 
 .hero__image {
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     background: url(../images/hero-image-xlarge.jpg) no-repeat;
     background-size: cover;
@@ -374,5 +374,26 @@ ul>.nav__item {
 
     100% {
         transform: scale(1.1);
+    }
+}
+
+.hero__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    opacity: 1;
+    animation: fade-out 5s ease-in-out forwards;
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0.3;
     }
 }
