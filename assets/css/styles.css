@@ -376,21 +376,3 @@ ul>.nav__item {
         transform: scale(1.1);
     }
 }
-
-@media screen and (max-width: 1440px) {
-    .hero__image {
-        background: url(../images/hero-image-large.jpg);
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .hero__image {
-        background: url(../images/hero-image-medium.jpg);
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .hero__image {
-        background: url(../images/hero-image-small.jpg);
-    }
-}
