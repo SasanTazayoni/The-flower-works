@@ -119,7 +119,7 @@ h2 {
 
 .block,
 .block--grey {
-    padding: 25px;
+    padding: 24px;
 }
 
 .block {
@@ -141,6 +141,11 @@ h2 {
 }
 
 @media screen and (max-width: 372px) {
+    .block,
+    .block--grey {
+        padding: 16px;
+    }
+
     .block__header {
         margin: 10px 0 12px 0;
     }
