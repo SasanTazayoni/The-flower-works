@@ -58,6 +58,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    z-index: 2;
 }
 
 .nav__component {
@@ -346,5 +347,32 @@ ul>.nav__item {
 @media screen and (max-width: 324px) {
     nav li {
         padding: 10px;
+    }
+}
+
+/* Hero image */
+
+.hero__container {
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero__image {
+    height: 70vh;
+    width: 100%;
+    background: url(../images/hero-image-xlarge.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: hero-zoom 5s ease-in-out forwards;
+}
+
+@keyframes hero-zoom {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
     }
 }
