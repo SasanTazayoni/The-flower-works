@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
 
 
 :root {
@@ -30,7 +30,7 @@ html {
 /* Typography */
 
 body {
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
     color: var(--color-body);
     margin: 0;
     padding: 0;
@@ -41,7 +41,7 @@ h1,
 h2,
 h3 {
     color: var(--color-headings);
-    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
 }
 
 /* Links */
