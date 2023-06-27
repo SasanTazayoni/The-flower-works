@@ -130,9 +130,10 @@ div>.instagram-link {
     position: absolute;
     left: 50%;
     font-size: 12px;
-    transform: translateX(-50%) translateY(160%) scale(var(--scale));
+    transform: translateX(-50%) translateY(180%) scale(var(--scale));
     transition: 0.2s transform;
     transform-origin: top center;
+    z-index: 1;
 }
 
 .instagram-link::before {
@@ -261,6 +262,7 @@ ul>.nav__item {
 
     .collapsible__toggler {
         position: relative;
+        background: var(--color-tertiary);
     }
 
     .collapsible__toggler::before,
@@ -272,6 +274,7 @@ ul>.nav__item {
         transform: translateX(-50%) translateY(140%) scale(var(--scale));
         transition: 0.2s transform;
         transform-origin: top center;
+        z-index: 1;
     }
 
     .collapsible__toggler::before {
@@ -305,12 +308,6 @@ ul>.nav__item {
 }
 
 @media screen and (max-width: 376px) {
-    .nav__logo--small {
-        height: 60px;
-        width: 60px;
-        padding: 8px;
-    }
-
     div>.instagram-link {
         margin-right: 12px;
     }
@@ -330,7 +327,7 @@ ul>.nav__item {
     .collapsible__toggler::before,
     .collapsible__toggler::after {
         font-size: 10px;
-        transform: translateX(-50%) translateY(140%) scale(var(--scale));
+        transform: translateX(-50%) translateY(180%) scale(var(--scale));
     }
 
     .collapsible__toggler::before {
@@ -340,7 +337,7 @@ ul>.nav__item {
     .instagram-link::before,
     .instagram-link::after {
         font-size: 10px;
-        transform: translateX(-50%) translateY(90%) scale(var(--scale));
+        transform: translateX(-50%) translateY(100%) scale(var(--scale));
     }
 
     .instagram-link::before {
