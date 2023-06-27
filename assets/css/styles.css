@@ -356,6 +356,7 @@ ul>.nav__item {
     height: 80vh;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 .hero__image {
@@ -365,6 +366,10 @@ ul>.nav__item {
     background-size: cover;
     background-position: center;
     animation: hero-zoom 3s ease-in-out forwards;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 @keyframes hero-zoom {
@@ -396,4 +401,18 @@ ul>.nav__item {
     100% {
         opacity: 0.3;
     }
+}
+
+.hero__text {
+    color: var(--color-headings);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
 }
