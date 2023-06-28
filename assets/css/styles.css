@@ -186,6 +186,15 @@ a {
     border-radius: 20px;
     box-shadow: 0 0 10px #acacac;
     margin: 0 10px;
+    transition: all 0.3s;
+}
+
+div>.button {
+    color: var(--color-primary);
+}
+
+div>.button:hover {
+    color: var(--color-primary-hover);
 }
 
 @media screen and (max-width: 768px) {
