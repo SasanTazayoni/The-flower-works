@@ -117,18 +117,18 @@ h2 {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 @media screen and (max-width: 768px) {
     .container {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 }
 
 @media screen and (max-width: 372px) {
     .container {
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
 }
 
