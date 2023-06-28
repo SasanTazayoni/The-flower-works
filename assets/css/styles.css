@@ -725,10 +725,10 @@ ul>.nav__item {
     position: absolute;
     z-index: 1;
     font-size: 40px;
+    color: var(--color-secondary-hover);
     background: none;
     top: 50%;
     transform: translateY(-50%);
-    color: var(--color-primary);
     opacity: 0.5;
     cursor: pointer;
     transition: color 0.3s;
@@ -736,7 +736,7 @@ ul>.nav__item {
 
 .testimonials__button:hover,
 .testimonials__button:focus {
-    color: var(--color-primary-hover);
+    color: var(--color-secondary);
 }
 
 .testimonials__button:focus {
