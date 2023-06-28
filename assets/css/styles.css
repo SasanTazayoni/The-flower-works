@@ -568,7 +568,7 @@ ul>.nav__item {
     background: url(../images/hero-image-xlarge.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    animation: hero-zoom 1s ease-in-out forwards;
+    animation: hero-zoom 2s ease-in-out forwards;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -592,7 +592,7 @@ ul>.nav__item {
     height: 100%;
     width: 100%;
     background-color: rgba(255, 255, 255, 1);
-    animation: fade-out 1s ease-in-out forwards;
+    animation: fade-out 2s ease-in-out forwards;
 }
 
 @keyframes fade-out {
@@ -619,7 +619,7 @@ ul>.nav__item {
     text-align: center;
     transform: translateX(-50%) translateY(50%);
     border-radius: 20px;
-    animation: fade-in 1s ease-in-out forwards;
+    animation: fade-in 2s ease-in-out forwards;
 }
 
 .hero__heading {
