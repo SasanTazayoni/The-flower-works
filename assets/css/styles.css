@@ -720,3 +720,33 @@ ul>.nav__item {
 .testimonials__content[data-active] {
     opacity: 1;
 }
+
+.testimonials__button {
+    position: absolute;
+    z-index: 1;
+    font-size: 40px;
+    background: none;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-primary);
+    opacity: 0.5;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.testimonials__button:hover,
+.testimonials__button:focus {
+    color: var(--color-primary-hover);
+}
+
+.testimonials__button:focus {
+    outline: none;
+}
+
+.testimonials__button.prev {
+    left: 15px;
+}
+
+.testimonials__button.next {
+    right: 15px;
+}
