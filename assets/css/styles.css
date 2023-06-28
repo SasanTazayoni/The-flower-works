@@ -119,6 +119,11 @@ h2 {
     margin-bottom: 40px;
 }
 
+.button__container {
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (max-width: 768px) {
     .container {
         margin-bottom: 30px;
@@ -681,9 +686,37 @@ ul>.nav__item {
     }
 }
 
-/* About block */
+/* Testimonials block */
 
-.button__container {
-    display: flex;
-    justify-content: center;
+.testimonials__header {
+    text-align: center;
+}
+
+.testimonials__card {
+    background: linear-gradient(135deg,
+            #e2dbdb 0%,
+            #fff 15%,
+            #fff 85%,
+            #e2dbdb 100%);
+    color: var(--color-body);
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    font-weight: bold;
+    position: relative;
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #acacac;
+}
+
+.testimonials__content {
+    padding: 40px 100px;
+    position: absolute;
+    opacity: 0;
+    inset: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.testimonials__content[data-active] {
+    opacity: 1;
 }
