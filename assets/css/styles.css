@@ -788,3 +788,84 @@ ul>.nav__item {
     background: var(--color-secondary-hover);
     opacity: 1;
 }
+
+@media screen and (max-width: 1024px) {
+    .testimonials__card {
+        height: 260px;
+    }
+
+    .testimonials__content {
+        padding: 30px 80px;
+    }
+
+    .testimonials__button {
+        font-size: 40px;
+    }
+
+    .testimonials__tab {
+        width: 30px;
+        height: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .testimonials__content {
+        padding: 20px 48px;
+    }
+
+    .testimonials__button {
+        font-size: 30px;
+    }
+
+    .testimonials__button.prev {
+        left: 8px;
+    }
+
+    .testimonials__button.next {
+        right: 8px;
+    }
+
+    .testimonials__tabs {
+        bottom: 3%;
+    }
+
+    .testimonials__tab {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .testimonials__card {
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 372px) {
+    .testimonials__card {
+        height: 260px;
+        font-size: 95%;
+    }
+}
+
+@media screen and (max-width: 324px) {
+    .testimonials__card {
+        font-size: 85%;
+    }
+
+    .testimonials__content {
+        padding: 20px 36px;
+    }
+
+    .testimonials__button {
+        font-size: 24px;
+    }
+
+    .testimonials__button.prev {
+        left: 5px;
+    }
+
+    .testimonials__button.next {
+        right: 5px;
+    }
+}
