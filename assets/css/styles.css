@@ -740,12 +740,12 @@ ul>.nav__item {
     transform: translateY(-50%);
     opacity: 0.5;
     cursor: pointer;
-    transition: color 0.3s;
+    transition: opacity 0.3s;
 }
 
 .testimonials__button:hover,
 .testimonials__button:focus {
-    color: var(--color-secondary);
+    opacity: 1;
 }
 
 .testimonials__button:focus {
@@ -785,7 +785,6 @@ ul>.nav__item {
 }
 
 .testimonials__tab[data-active] {
-    background: var(--color-secondary-hover);
     opacity: 1;
 }
 
