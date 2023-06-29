@@ -871,3 +871,30 @@ ul>.nav__item {
 
 /* Scroll up link */
 
+.scroll-up-link {
+    visibility: hidden;
+    text-align: center;
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    font-size: 40px;
+    animation: rotate 3s ease-in-out infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    50% {
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.show-link {
+    visibility: visible;
+}
