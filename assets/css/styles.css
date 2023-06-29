@@ -755,3 +755,32 @@ ul>.nav__item {
 .testimonials__button.next {
     right: 15px;
 }
+
+.testimonials__tabs {
+    background: rgba(237, 211, 255, 0.5);
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10%;
+    border-radius: 10px;
+    padding: 5px;
+    height: max-content;
+}
+
+.testimonials__tab {
+    margin: 0 5px;
+    justify-self: center;
+    align-self: center;
+    width: 40px;
+    height: 15px;
+    background: var(--color-secondary-hover);
+    position: relative;
+    border-radius: 10px;
+    opacity: 0.3;
+}
+
+.testimonials__tab[data-active] {
+    background: var(--color-secondary-hover);
+    opacity: 1;
+}
