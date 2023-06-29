@@ -872,13 +872,14 @@ ul>.nav__item {
 /* Scroll up link */
 
 .scroll-up-link {
-    visibility: hidden;
+    opacity: 0;
     text-align: center;
     position: fixed;
     right: 3rem;
     bottom: 3rem;
     font-size: 40px;
     animation: rotate 3s ease-in-out infinite;
+    transition: opacity 2s;
 }
 
 @keyframes rotate {
@@ -896,5 +897,5 @@ ul>.nav__item {
 }
 
 .show-link {
-    visibility: visible;
+    opacity: 1;
 }
