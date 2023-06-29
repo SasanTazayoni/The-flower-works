@@ -53,3 +53,13 @@ testimonialsButtons.forEach(button => {
         button.blur();
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    startTestimonialSlider();
+});
+
+const startTestimonialSlider = () => {
+    setInterval(() => {
+        nextTestimonialButton.click();
+    }, 16000);
+};
