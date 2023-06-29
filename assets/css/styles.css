@@ -711,10 +711,12 @@ ul>.nav__item {
     font-size: 85%;
     font-weight: bold;
     position: relative;
-    height: 200px;
+    height: 260px;
 }
 
 .testimonials__content {
+    display: flex;
+    align-items: center;
     padding: 40px 100px;
     position: absolute;
     opacity: 0;
