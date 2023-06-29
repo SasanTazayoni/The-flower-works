@@ -4,10 +4,16 @@ const btns = document.querySelectorAll('.button');
 const testimonialsButtons = document.querySelectorAll('[data-testimonials-button]');
 const nextTestimonialButton = document.querySelector('[data-testimonials-button="next"]');
 const testimonialsTabs = document.querySelectorAll('[data-testimonials-tab]');
+const navbar = document.querySelector('[data-navbar]');
+const scrollToTop = document.querySelector('[data-scroll-up]');
+
+// Menu component
 
 collapsibleToggler.addEventListener('click', () => {
     collapsibleContent.classList.toggle('collapsible--expanded');
 });
+
+// Button component
 
 btns.forEach(btn => {
     btn.addEventListener('mouseover', function (e) {
@@ -23,6 +29,8 @@ btns.forEach(btn => {
         }, 500);
     });
 });
+
+// Testimonials component
 
 testimonialsButtons.forEach(button => {
     button.addEventListener('click', () => {
@@ -63,3 +71,15 @@ const startTestimonialSlider = () => {
         nextTestimonialButton.click();
     }, 16000);
 };
+
+// Scroll link component
+
+window.addEventListener('scroll', () => {
+    const scrollHeight = window.scrollY;
+    const navHeight = navbar.getBoundingClientRect().height;
+    if (scrollHeight > (navHeight * 2)) {
+        scrollToTop.classList.add('show-link');
+    } else {
+        scrollToTop.classList.remove('show-link');
+    }
+});
