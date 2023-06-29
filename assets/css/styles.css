@@ -782,6 +782,7 @@ ul>.nav__item {
     position: relative;
     border-radius: 10px;
     opacity: 0.3;
+    transition: opacity 0.6s;
 }
 
 .testimonials__tab[data-active] {
