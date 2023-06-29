@@ -729,7 +729,7 @@ ul>.nav__item {
 .testimonials__button {
     position: absolute;
     z-index: 1;
-    font-size: 40px;
+    font-size: 50px;
     color: var(--color-secondary-hover);
     background: none;
     top: 50%;
