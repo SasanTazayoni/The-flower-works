@@ -35,5 +35,7 @@ testimonialsButtons.forEach(button => {
 
         testimonials.children[newIndex].dataset.active = true;
         delete activeTestimonial.dataset.active;
+
+        button.blur();
     });
 });
