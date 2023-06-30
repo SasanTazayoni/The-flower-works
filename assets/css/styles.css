@@ -975,3 +975,53 @@ footer li {
     height: 200px;
     width: 200px;
 }
+
+@media screen and (max-width: 1024px) {
+    .footer__menu a {
+        padding: 0 16px;
+    }
+
+    .footer__logo {
+        height: 160px;
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer__menu {
+        padding: 14px;
+    }
+
+    .footer__menu a {
+        padding: 0 12px;
+        font-size: 16px;
+    }
+
+    .footer__logo {
+        height: 140px;
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .footer__menu {
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+
+    .footer__menu li {
+        padding: 16px;
+        border-bottom: 0.5px solid #d8d0d3;
+    }
+
+    .footer__logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 324px) {
+    .footer__menu li {
+        padding: 12px;
+    }
+}
