@@ -881,19 +881,18 @@ ul>.nav__item {
     font-size: 30px;
     animation: rotate 3s ease-in-out infinite;
     transition: opacity 2s;
-    color: var(--color-primary);
+    color: var(--color-primary-hover);
     padding: 5px 10px;
-    border: 2px solid var(--color-primary);
+    border: 2px solid var(--color-primary-hover);
     border-radius: 50%;
-    filter: drop-shadow(0 0 0.03em hsl(0, 0%, 100%, 0.5)) drop-shadow(0 0 0.03em var(--color-primary));
-    box-shadow: inset 0 0 0.03em 0 var(--color-primary), 0 0 0.03em 0 var(--color-primary);
+    filter: drop-shadow(0 0 0.03em hsl(0, 0%, 100%, 0.5)) drop-shadow(0 0 0.03em var(--color-primary-hover));
+    box-shadow: inset 0 0 0.03em 0 var(--color-primary-hover), 0 0 0.03em 0 var(--color-primary-hover);
     transition: all 0.6s;
 }
 
-.scroll-up-link:hover,
-.scroll-up-link:focus {
-    color: var(--color-primary-hover);
-    border: 2px solid var(--color-primary-hover);
+.scroll-up-link:hover {
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
 }
 
 @keyframes rotate {
