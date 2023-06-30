@@ -40,7 +40,7 @@ body {
 h1 {
     font-size: 100px;
     line-height: 90px;
-    color: #fff;
+    color: var(--block-light);
 }
 
 h2,
@@ -212,7 +212,7 @@ div>.button:hover {
 
 .button>span {
     position: absolute;
-    background: #fff;
+    background: var(--block-light);
     transform: translateX(-50%) translateY(-50%);
     pointer-events: none;
     border-radius: 50%;
@@ -263,6 +263,7 @@ div>.button:hover {
     width: 100%;
     border-radius: 20px;
     box-shadow: 0 0 20px #acacac;
+    background: var(--block-light);
 }
 
 .card--grey {
@@ -634,7 +635,7 @@ ul>.nav__item {
     margin: 20px 0;
     font-size: 24px;
     font-weight: 600;
-    color: #fff;
+    color: var(--block-light);
 }
 
 @keyframes fade-in {

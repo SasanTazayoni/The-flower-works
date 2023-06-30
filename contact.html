@@ -70,7 +70,33 @@
                 </div>
             </div>
         </section>
-        <section>enquiries form</section>
+        <section class="block--grey">
+            <div class="container">
+                <div class="card enquiries-form">
+                    <header>
+                        <h3 class="block__header">Enquiries form</h3>
+                    </header>
+                    <div class="enquiries-form__content">
+                        <form action="" method="POST">
+                            <label for="fullname">Full name</label>
+                            <input type="text" id="fullname" name="fullname" placeholder="Full name" minlength="1"
+                                maxlength="40" required>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Email" minlength="5" maxlength="40"
+                                required>
+                            <label for="enquiry">Your enquiry</label>
+                            <textarea name="enquiry" id="enquiry" cols="100" rows="8" placeholder="hey" minlength="10"
+                                maxlength="300" class="enquiries-form__textarea" required>
+                            </textarea>
+                            <div class="button__container">
+                                <button class="button" type="submit">Submit</button>
+                                <button class="button" type="reset">Clear</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section>google maps location</section>
         <!-- Back to top button -->
         <a href="#" class="scroll-up-link" data-scroll-up>
@@ -90,7 +116,7 @@
             <img src="assets/images/flowerworkslogosmall.jpg" class="footer__logo" alt="The Flower Works company logo">
         </section>
         <section class="footer__credits">
-            <p>&copy; The Flower Works 2023.<br> Website designed & created by Sasan Tazayoni</p>
+            <p>&copy; The Flower Works 2023 <br> Website designed & created by Sasan Tazayoni</p>
             <a href="https://github.com/SasanTazayoni" target="_blank" class="github-link"
                 aria-label="Github profile link">
                 <i class="fa-brands fa-github"></i>
