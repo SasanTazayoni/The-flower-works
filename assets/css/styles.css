@@ -976,6 +976,31 @@ footer li {
     width: 200px;
 }
 
+.footer__credits {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 80%;
+    text-align: center;
+}
+
+.github-link i {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: var(--color-primary);
+    transition: all 0.6s;
+}
+
+.github-link i:hover {
+    transform: scale(1.5);
+    color: var(--color-primary-hover);
+}
+
 @media screen and (max-width: 1024px) {
     .footer__menu a {
         padding: 0 16px;
