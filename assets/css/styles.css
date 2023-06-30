@@ -199,6 +199,7 @@ a {
     transition: all 0.3s;
     position: relative;
     font-size: 24px;
+    cursor: pointer;
 }
 
 div>.button {
@@ -1096,4 +1097,9 @@ footer li {
 
 .enquiries-form h3 {
     text-align: center;
+}
+
+.enquiries-form__textarea {
+    height: 30vh;
+    width: 100%;
 }
