@@ -948,3 +948,30 @@ ul>.nav__item {
         padding: 3px 6px;
     }
 }
+
+/* Footer */
+
+footer {
+    background-color: var(--color-tertiary);
+}
+
+footer li {
+    list-style: none;
+}
+
+.footer__menu {
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+
+.footer__menu a {
+    padding: 0 20px;
+}
+
+.footer__logo {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+}
