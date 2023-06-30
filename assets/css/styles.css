@@ -53,6 +53,11 @@ h2 {
     font-size: 40px;
 }
 
+.page__header {
+    text-align: center;
+    margin: 30px;
+}
+
 @media screen and (max-width: 1024px) {
     body {
         font-size: 20px;
@@ -1035,3 +1040,5 @@ footer li {
         padding: 12px;
     }
 }
+
+/* Contact page */
