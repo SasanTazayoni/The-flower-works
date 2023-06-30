@@ -955,12 +955,12 @@ footer li {
     margin: 0 auto;
     height: 200px;
     width: 200px;
+    padding-bottom: 10px;
 }
 
 .footer__credits {
-    padding: 20px;
+    padding-top: 10px;
     margin: 0 auto;
-    max-width: 80%;
     text-align: center;
 }
 
@@ -1006,6 +1006,10 @@ footer li {
     .footer__logo {
         height: 140px;
         width: 140px;
+    }
+
+    .footer__credits {
+        max-width: 70%;
     }
 }
 
