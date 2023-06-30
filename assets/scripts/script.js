@@ -82,4 +82,6 @@ window.addEventListener('scroll', () => {
     } else {
         scrollToTop.classList.remove('show-link');
     }
+
+    scrollToTop.blur();
 });
