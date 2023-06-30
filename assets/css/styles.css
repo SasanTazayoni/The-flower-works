@@ -265,6 +265,17 @@ div>.button:hover {
     box-shadow: 0 0 20px #acacac;
 }
 
+.card--grey {
+    background: var(--block-grey);
+}
+
+/* Grids */
+
+.grid--1x2 {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+}
+
 /* Navigation bar */
 
 nav {
@@ -1042,3 +1053,30 @@ footer li {
 }
 
 /* Contact page */
+
+.bold {
+    font-weight: 600;
+}
+
+.card__content {
+    padding-left: 40px;
+    margin: auto 0;
+}
+
+.card__image {
+    padding: 10px;
+}
+
+.card__image>img {
+    border-radius: 20px;
+
+}
+
+.card__content a {
+    color: #7daef8;
+    transition: color 0.3s;
+}
+
+.card__content a:hover {
+    color: var(--color-primary);
+}
