@@ -72,7 +72,7 @@ const startTestimonialSlider = () => {
     }, 16000);
 };
 
-// Scroll link component
+// Scroll up link component
 
 window.addEventListener('scroll', () => {
     const scrollHeight = window.scrollY;
