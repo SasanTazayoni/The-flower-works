@@ -301,6 +301,11 @@ div>.button:hover {
 
 /* Forms */
 
+label {
+    display: block;
+    margin: 0 5px;
+}
+
 input[type="text"],
 input[type="email"],
 textarea {
@@ -308,6 +313,7 @@ textarea {
     border-radius: 5px;
     padding: 5px 8px;
     transition: all 0.3s;
+    margin-bottom: 15px;
 }
 
 input[type="text"],
@@ -324,6 +330,22 @@ textarea:focus {
 
 textarea {
     resize: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    input[type="text"],
+    input[type="email"] {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 428px) {
+
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+    }
 }
 
 /* Navigation bar */
@@ -1177,7 +1199,8 @@ footer li {
 /* Enquiries form */
 
 .enquiries-form {
-    padding: 30px;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 .enquiries-form h3 {
@@ -1185,6 +1208,18 @@ footer li {
 }
 
 .enquiries-form__textarea {
-    height: 30vh;
+    height: 20vh;
     width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .enquiries-form {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 372px) {
+    .enquiries-form {
+        margin-top: 10px;
+    }
 }
