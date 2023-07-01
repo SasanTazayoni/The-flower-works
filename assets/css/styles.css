@@ -40,12 +40,14 @@ h1 {
     font-size: 100px;
     line-height: 90px;
     color: var(--block-light);
+    text-align: center;
 }
 
 h2,
 h3 {
     color: var(--color-headings);
     font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 h2 {
@@ -53,7 +55,6 @@ h2 {
 }
 
 .page__header {
-    text-align: center;
     margin: 30px;
 }
 
@@ -692,7 +693,6 @@ ul>.nav__item {
     position: absolute;
     top: 0;
     left: 50%;
-    text-align: center;
     transform: translateX(-50%) translateY(50%);
     border-radius: 20px;
     animation: fade-in 2s ease-in-out forwards;
@@ -707,6 +707,7 @@ ul>.nav__item {
     font-size: 24px;
     font-weight: 600;
     color: var(--block-light);
+    text-align: center;
 }
 
 @keyframes fade-in {
@@ -764,10 +765,6 @@ ul>.nav__item {
 }
 
 /* Testimonials block */
-
-.testimonials__header {
-    text-align: center;
-}
 
 .testimonials__card {
     background: var(--block-grey);
@@ -1174,21 +1171,18 @@ footer li {
 @media screen and (max-width: 428px) {
     .card__content {
         padding: 30px;
-        text-align: center;
     }
 }
 
 @media screen and (max-width: 372px) {
     .card__content {
         padding: 20px;
-        text-align: center;
     }
 }
 
 @media screen and (max-width: 324px) {
     .card__content {
         padding: 12px;
-        text-align: center;
     }
 
     .card__image {
@@ -1201,10 +1195,6 @@ footer li {
 .enquiries-form {
     padding: 20px;
     margin-top: 20px;
-}
-
-.enquiries-form h3 {
-    text-align: center;
 }
 
 .enquiries-form__textarea {
