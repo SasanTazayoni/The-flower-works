@@ -287,6 +287,18 @@ div>.button:hover {
     grid-template-columns: 1fr max-content;
 }
 
+@media screen and (max-width: 1024px) {
+    .grid--1x2 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid--1x2 {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Navigation bar */
 
 nav {
@@ -1061,15 +1073,15 @@ footer li {
     }
 }
 
-/* Contact page */
+/* Contact card */
+
+.card__content {
+    padding: 0 40px;
+    margin: auto 0;
+}
 
 .bold {
     font-weight: 600;
-}
-
-.card__content {
-    padding-left: 40px;
-    margin: auto 0;
 }
 
 .card__image {
@@ -1078,7 +1090,6 @@ footer li {
 
 .card__image>img {
     border-radius: 20px;
-
 }
 
 .card__content a {
@@ -1089,6 +1100,24 @@ footer li {
 .card__content a:hover {
     color: var(--color-primary);
 }
+
+@media screen and (max-width: 1024px) {
+    .card__content {
+        padding: 0 24px;
+    }
+
+    .card__image>img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card__image>img {
+        width: max-content;
+    }
+}
+
+/* Enquiries form */
 
 .enquiries-form {
     padding: 30px;
