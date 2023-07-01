@@ -1244,3 +1244,13 @@ footer li {
         margin-top: 10px;
     }
 }
+
+/* Google maps */
+
+.google-maps__container {
+    padding: 20px;
+}
+
+.google-maps {
+    border-radius: 20px;
+}
