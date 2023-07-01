@@ -1255,3 +1255,21 @@ footer li {
 .google-maps {
     border-radius: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    .google-maps {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .google-maps {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .google-maps__container {
+        padding: 10px;
+    }
+}
