@@ -285,13 +285,7 @@ div>.button:hover {
 
 .grid--1x2 {
     display: grid;
-    grid-template-columns: 1fr max-content;
-}
-
-@media screen and (max-width: 1024px) {
-    .grid--1x2 {
-        grid-template-columns: 1fr 1fr;
-    }
+    grid-template-columns: 1fr 1fr;
 }
 
 @media screen and (max-width: 768px) {
@@ -1152,6 +1146,10 @@ footer li {
 }
 
 /* Contact card */
+
+.card__grid {
+    grid-template-columns: 1fr max-content;
+}
 
 .card__content {
     padding: 0 40px;
