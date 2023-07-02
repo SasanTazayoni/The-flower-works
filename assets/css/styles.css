@@ -273,7 +273,7 @@ div>.button:hover {
 .card {
     width: 100%;
     border-radius: 20px;
-    box-shadow: 0 0 20px #acacac;
+    box-shadow: 0 0 10px #acacac;
     background: var(--block-light);
 }
 
@@ -283,9 +283,36 @@ div>.button:hover {
 
 /* Grids */
 
-.grid--1x2 {
+.grid--1x2,
+.grid--1x3,
+.grid--1x4,
+.grid--1x6 {
     display: grid;
+}
+
+.grid--1x3,
+.grid--1x4,
+.grid--1x6 {
+    gap: 20px;
+}
+
+.grid--1x2 {
     grid-template-columns: 1fr 1fr;
+}
+
+.grid--1x3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--1x4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--1x6 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
 }
 
 @media screen and (max-width: 768px) {
