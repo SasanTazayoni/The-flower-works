@@ -284,22 +284,24 @@ div>.button:hover {
 /* Grids */
 
 .grid--1x2,
-.grid--1x6 {
+.grid--1x4 {
     display: grid;
-}
-
-.grid--1x6 {
-    gap: 20px;
 }
 
 .grid--1x2 {
     grid-template-columns: 1fr 1fr;
 }
 
-.grid--1x6 {
-    grid-template-columns: repeat(6, 15%);
+.grid--1x4 {
+    grid-template-columns: repeat(4, 22%);
     gap: 20px;
     justify-content: center;
+}
+
+@media screen and (max-width: 1440px) {
+    .grid--1x4 {
+        grid-template-columns: repeat(3, 32%);
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -1288,15 +1290,14 @@ footer li {
 /* Gallery */
 
 .gallery-card {
-    background-image: url(../images/carnations.jpg);
     background-size: cover;
-    padding: 200px 0 0;
+    padding-top: 300px;
 }
 
 .gallery-card__content {
-    padding: 15px;
+    padding: 20px;
     font-size: 80%;
-    background: black;
+    background: ;
     height: 100%;
 }
 
