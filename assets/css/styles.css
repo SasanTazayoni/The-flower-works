@@ -284,14 +284,10 @@ div>.button:hover {
 /* Grids */
 
 .grid--1x2,
-.grid--1x3,
-.grid--1x4,
 .grid--1x6 {
     display: grid;
 }
 
-.grid--1x3,
-.grid--1x4,
 .grid--1x6 {
     gap: 20px;
 }
@@ -300,19 +296,8 @@ div>.button:hover {
     grid-template-columns: 1fr 1fr;
 }
 
-.grid--1x3 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.grid--1x4 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
 .grid--1x6 {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(6, 12%);
 }
 
 @media screen and (max-width: 768px) {
