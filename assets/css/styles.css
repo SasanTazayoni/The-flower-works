@@ -1310,17 +1310,47 @@ footer li {
 .gallery-card {
     background-size: cover;
     padding-top: 300px;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+}
+
+.gallery-card:hover {
+    transform: scale(1.05);
 }
 
 .gallery-card__content {
     padding: 20px;
     font-size: 80%;
-    background: ;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
     height: 100%;
+    position: relative;
+    color: var(--color-accent);
 }
 
-.gallery-card__content>h3 {
-    color: #fff;
+.gallery-card__content::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    left: 0;
+    bottom: 20%;
+    transform: scaleX(0) translateY(50%);
+    width: 100%;
+    background: var(--color-accent);
+    transition: transform 0.3s;
+}
+
+.gallery-card:hover .gallery-card__content::after {
+    transform: scaleX(1);
+}
+
+.gallery-card h3 {
+    color: var(--color-accent);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.gallery-card:hover h3 {
+    opacity: 1;
 }
 
 #card-one {
