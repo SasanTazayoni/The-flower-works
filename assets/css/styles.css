@@ -297,7 +297,9 @@ div>.button:hover {
 }
 
 .grid--1x6 {
-    grid-template-columns: repeat(6, 12%);
+    grid-template-columns: repeat(6, 15%);
+    gap: 20px;
+    justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
