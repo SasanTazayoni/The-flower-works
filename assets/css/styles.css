@@ -1307,6 +1307,10 @@ footer li {
 
 /* Gallery */
 
+.gallery {
+    margin-bottom: 100px;
+}
+
 .gallery-card {
     background-size: cover;
     padding-top: 300px;
@@ -1458,12 +1462,20 @@ footer li {
 }
 
 @media screen and (max-width: 1024px) {
+    .gallery {
+        margin-bottom: 80px;
+    }
+
     .gallery-card {
         padding-top: 200px;
     }
 }
 
 @media screen and (max-width: 768px) {
+    .gallery {
+        margin-bottom: 60px;
+    }
+
     .gallery-card {
         padding-top: 160px;
     }
@@ -1476,17 +1488,21 @@ footer li {
 }
 
 @media screen and (max-width: 428px) {
+    .gallery {
+        margin-bottom: 40px;
+    }
+
     .gallery-card {
         padding-top: 100px;
     }
 }
 
 @media screen and (max-width: 372px) {
+    .gallery {
+        margin-bottom: 30px;
+    }
+
     .gallery-card {
         padding-top: 90px;
     }
-}
-
-@media (hover) {
-    
 }
