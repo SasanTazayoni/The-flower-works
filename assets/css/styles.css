@@ -247,6 +247,7 @@ div>.button:hover {
         padding: 12px 16px;
         margin: 0 7px;
         font-size: 16px;
+        box-shadow: 0 0 5px #acacac;
     }
 }
 
@@ -279,6 +280,12 @@ div>.button:hover {
 
 .card--grey {
     background: var(--block-grey);
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        box-shadow: 0 0 5px #acacac;
+    }
 }
 
 /* Grids */
