@@ -1284,3 +1284,114 @@ footer li {
         padding: 10px;
     }
 }
+
+/* Gallery */
+
+.gallery-card {
+    background-image: url(../images/carnations.jpg);
+    background-size: cover;
+    padding: 200px 0 0;
+}
+
+.gallery-card__content {
+    padding: 15px;
+    font-size: 80%;
+    background: black;
+    height: 100%;
+}
+
+#card-one {
+    background-image: url(../images/carnations.jpg);
+}
+
+#card-two {
+    background-image: url(../images/roses.jpg);
+}
+
+#card-three {
+    background-image: url(../images/daffodils.jpg);
+}
+
+#card-four {
+    background-image: url(../images/sunflowers.jpg);
+}
+
+#card-five {
+    background-image: url(../images/lilies.jpg);
+}
+
+#card-six {
+    background-image: url(../images/tulips.jpg);
+}
+
+#card-seven {
+    background-image: url(../images/carnations.jpg);
+}
+
+#card-eight {
+    background-image: url(../images/roses.jpg);
+}
+
+#card-nine {
+    background-image: url(../images/daffodils.jpg);
+}
+
+#card-ten {
+    background-image: url(../images/sunflowers.jpg);
+}
+
+#card-eleven {
+    background-image: url(../images/lilies.jpg);
+}
+
+#card-twelve {
+    background-image: url(../images/tulips.jpg);
+}
+
+#card-thirteen {
+    background-image: url(../images/carnations.jpg);
+}
+
+#card-fourteen {
+    background-image: url(../images/roses.jpg);
+}
+
+#card-fifteen {
+    background-image: url(../images/daffodils.jpg);
+}
+
+#card-sixteen {
+    background-image: url(../images/sunflowers.jpg);
+}
+
+#card-seventeen {
+    background-image: url(../images/lilies.jpg);
+}
+
+#card-eighteen {
+    background-image: url(../images/tulips.jpg);
+}
+
+#card-nineteen {
+    background-image: url(../images/carnations.jpg);
+}
+
+#card-twenty {
+    background-image: url(../images/roses.jpg);
+}
+
+#card-twentyone {
+    background-image: url(../images/daffodils.jpg);
+}
+
+#card-twentytwo {
+    background-image: url(../images/sunflowers.jpg);
+}
+
+#card-twentythree {
+    background-image: url(../images/lilies.jpg);
+}
+
+#card-twentyfour {
+    background-image: url(../images/tulips.jpg);
+}
