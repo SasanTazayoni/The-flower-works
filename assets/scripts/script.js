@@ -1,9 +1,6 @@
 const collapsibleToggler = document.querySelector('.collapsible__toggler');
 const collapsibleContent = document.querySelector('.collapsible__content');
 const btns = document.querySelectorAll('.button');
-const testimonialsButtons = document.querySelectorAll('[data-testimonials-button]');
-const nextTestimonialButton = document.querySelector('[data-testimonials-button="next"]');
-const testimonialsTabs = document.querySelectorAll('[data-testimonials-tab]');
 const navbar = document.querySelector('[data-navbar]');
 const scrollToTop = document.querySelector('[data-scroll-up]');
 
