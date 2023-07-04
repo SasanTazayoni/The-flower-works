@@ -1,12 +1,21 @@
 const modal = document.querySelector('#modal');
-const openModalBtn = document.querySelectorAll('[data-gallery-card]');
+const openModalBtns = Array.from(document.querySelectorAll('[data-gallery-card]'));
+const modalImage = document.querySelector('#modal-image');
+const modalImageName = document.querySelector('#image-name');
 const closeModalBtn = document.querySelector('#close-modal');
 const overlay = document.querySelector('#overlay');
 
 // Modal component
 
-openModalBtn.forEach(picture => {
-    picture.addEventListener('click', () => {
+openModalBtns.forEach(card => {
+    card.addEventListener('click', () => {
+        let imageSrc = modalImage.getAttribute('src');
+        const imageName = card.querySelector('h3').textContent;
+
+        imageSrc = 'assets/images/' + imageName.toLowerCase() + 'modal.jpg';
+        modalImageName.textContent = imageName;
+        modalImage.setAttribute('src', imageSrc);
+
         modal.classList.add('open');
         overlay.classList.add('open');
     });
