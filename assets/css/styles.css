@@ -1553,16 +1553,6 @@ footer li {
     border-radius: var(--border-radius);
 }
 
-#modal.open+.scroll-up-link {
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-#modal:not(.open)+.scroll-up-link {
-    opacity: 1;
-    transition: opacity 0.3s;
-}
-
 #close-modal {
     display: flex;
     align-items: center;
