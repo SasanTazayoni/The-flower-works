@@ -1001,6 +1001,7 @@ ul>.nav__item {
 /* Scroll up link */
 
 .scroll-up-link {
+    display: inline-block;
     opacity: 0;
     text-align: center;
     position: fixed;
@@ -1467,7 +1468,7 @@ footer li {
 
 #modal {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -1477,7 +1478,7 @@ footer li {
 
 #overlay {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -1491,6 +1492,14 @@ footer li {
 
 #overlay.open {
     display: block;
+}
+
+#modal.open+.scroll-up-link {
+    display: none;
+}
+
+#overlay:not(.open)+.scroll-up-link {
+    display: inline-block;
 }
 
 @media screen and (max-width: 1024px) {
