@@ -10,6 +10,7 @@
     --color-body: #3c0042;
     --block-light: #fff;
     --block-grey: #e6e6e9;
+    --border-radius: 20px;
 }
 
 *,
@@ -192,7 +193,7 @@ a {
     padding: 15px 20px;
     background-color: var(--color-accent);
     text-align: center;
-    border-radius: 20px;
+    border-radius: var(--border-radius);
     box-shadow: 0 0 10px #acacac;
     margin: 0 10px;
     overflow: hidden;
@@ -273,7 +274,7 @@ div>.button:hover {
 
 .card {
     width: 100%;
-    border-radius: 20px;
+    border-radius: var(--border-radius);
     box-shadow: 0 0 10px #acacac;
     background: var(--block-light);
 }
@@ -759,7 +760,7 @@ ul>.nav__item {
     top: 0;
     left: 50%;
     transform: translateX(-50%) translateY(50%);
-    border-radius: 20px;
+    border-radius: var(--border-radius);
     animation: fade-in 2s ease-in-out forwards;
 }
 
@@ -1199,7 +1200,7 @@ footer li {
 }
 
 .contact-card__image>img {
-    border-radius: 20px;
+    border-radius: var(--border-radius);
 }
 
 .contact-card__content a {
@@ -1285,7 +1286,7 @@ footer li {
 }
 
 .google-maps {
-    border-radius: 20px;
+    border-radius: var(--border-radius);
 }
 
 @media screen and (max-width: 768px) {
@@ -1460,6 +1461,36 @@ footer li {
 
 #card-twentyfour {
     background-image: url(../images/tulips.jpg);
+}
+
+/* Modal */
+
+#modal {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    border-radius: var(--border-radius);
+}
+
+#overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#modal.open {
+    display: block;
+}
+
+#overlay.open {
+    display: block;
 }
 
 @media screen and (max-width: 1024px) {
