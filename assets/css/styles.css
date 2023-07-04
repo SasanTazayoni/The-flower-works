@@ -1488,19 +1488,33 @@ footer li {
 }
 
 #modal.open {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #overlay.open {
     display: block;
 }
 
-#modal.open+.scroll-up-link {
-    display: none;
+#image-name {
+    color: var(--color-accent);
 }
 
-#overlay:not(.open)+.scroll-up-link {
-    display: inline-block;
+#modal-image {
+    height: 80vh;
+    margin: 20px 0;
+    border-radius: var(--border-radius);
+}
+
+#modal.open+.scroll-up-link {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+#modal:not(.open)+.scroll-up-link {
+    opacity: 1;
+    transition: opacity 0.3s;
 }
 
 #close-modal {
