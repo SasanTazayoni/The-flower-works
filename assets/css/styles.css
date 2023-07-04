@@ -1465,6 +1465,52 @@ footer li {
     background-image: url(../images/tulips.jpg);
 }
 
+@media screen and (max-width: 1024px) {
+    .gallery {
+        margin-bottom: 80px;
+    }
+
+    .gallery-card {
+        padding-top: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gallery {
+        margin-bottom: 60px;
+    }
+
+    .gallery-card {
+        padding-top: 160px;
+    }
+}
+
+@media screen and (max-width: 572px) {
+    .gallery-card {
+        padding-top: 120px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .gallery {
+        margin-bottom: 40px;
+    }
+
+    .gallery-card {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 372px) {
+    .gallery {
+        margin-bottom: 30px;
+    }
+
+    .gallery-card {
+        padding-top: 90px;
+    }
+}
+
 /* Modal */
 
 #modal {
@@ -1528,47 +1574,19 @@ footer li {
 }
 
 @media screen and (max-width: 1024px) {
-    .gallery {
-        margin-bottom: 80px;
-    }
-
-    .gallery-card {
-        padding-top: 200px;
+    #modal-image {
+        height: 70vh;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .gallery {
-        margin-bottom: 60px;
-    }
-
-    .gallery-card {
-        padding-top: 160px;
-    }
-}
-
-@media screen and (max-width: 572px) {
-    .gallery-card {
-        padding-top: 120px;
+    #modal-image {
+        height: 60vh;
     }
 }
 
 @media screen and (max-width: 428px) {
-    .gallery {
-        margin-bottom: 40px;
-    }
-
-    .gallery-card {
-        padding-top: 100px;
-    }
-}
-
-@media screen and (max-width: 372px) {
-    .gallery {
-        margin-bottom: 30px;
-    }
-
-    .gallery-card {
-        padding-top: 90px;
+    #modal-image {
+        height: 50vh;
     }
 }
