@@ -1319,6 +1319,7 @@ footer li {
     padding-top: 300px;
     overflow: hidden;
     transition: transform 0.5s ease;
+    cursor: pointer;
 }
 
 .gallery-card:hover {
