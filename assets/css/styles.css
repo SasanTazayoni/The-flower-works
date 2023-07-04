@@ -1502,6 +1502,16 @@ footer li {
     display: inline-block;
 }
 
+#close-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#close-modal i {
+    margin-left: 5px;
+}
+
 @media screen and (max-width: 1024px) {
     .gallery {
         margin-bottom: 80px;
