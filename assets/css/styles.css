@@ -1509,6 +1509,38 @@ footer li {
     }
 }
 
+/* FAQ */
+
+.faq__container {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.strong {
+    font-weight: 600;
+    font-size: 120%;
+}
+
+.faq-question {
+    background: var(--block-grey);
+    padding: 10px 0;
+}
+
+.faq-answer {
+    padding: 10px 0;
+}
+
+.divider {
+    background: var(--block-grey);
+    border: 1px solid var(--block-grey);
+    height: 1px;
+    position: absolute;
+    left: 50%;
+    bottom: -5%;
+    transform: translate(-50%, 50%);
+    width: 120%;
+}
+
 /* Contact card */
 
 .contact-card__content {
