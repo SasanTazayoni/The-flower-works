@@ -1488,12 +1488,6 @@ footer li {
     }
 }
 
-@media screen and (max-width: 428px) {
-    #modal-image {
-        height: 50vh;
-    }
-}
-
 /* FAQ */
 
 .faq__container {
