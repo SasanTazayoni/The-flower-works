@@ -1236,6 +1236,38 @@ footer li {
     margin: 20px;
 }
 
+@media screen and (max-width: 1024px) {
+    .services__image {
+        height: 150px;
+        width: 150px;
+        margin: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .services__image {
+        height: 80px;
+        width: 80px;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .services__image {
+        height: 60px;
+        width: 60px;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 324px) {
+    .services__image {
+        height: 50px;
+        width: 50px;
+        margin: 5px;
+    }
+}
+
 /* Gallery */
 
 .gallery {
