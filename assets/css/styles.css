@@ -1185,129 +1185,6 @@ footer li {
     }
 }
 
-/* Contact card */
-
-.contact-card__content {
-    padding: 0 40px;
-    margin: auto 0;
-}
-
-.bold {
-    font-weight: 600;
-}
-
-.contact-card__image {
-    padding: 10px;
-}
-
-.contact-card__image>img {
-    border-radius: var(--border-radius);
-}
-
-.contact-card__content a {
-    color: #7daef8;
-    transition: color 0.3s;
-}
-
-.contact-card__content a:hover {
-    color: var(--color-primary);
-}
-
-@media screen and (max-width: 1024px) {
-    .contact-card__content {
-        padding: 0 24px;
-    }
-
-    .contact-card__image>img {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .contact-card__content {
-        padding: 40px;
-        text-align: center;
-    }
-
-    .contact-card__image {
-        padding: 20px;
-    }
-}
-
-@media screen and (max-width: 428px) {
-    .contact-card__content {
-        padding: 30px;
-    }
-}
-
-@media screen and (max-width: 372px) {
-    .contact-card__content {
-        padding: 20px;
-    }
-}
-
-@media screen and (max-width: 324px) {
-    .contact-card__content {
-        padding: 12px;
-    }
-
-    .contact-card__image {
-        padding: 12px;
-    }
-}
-
-/* Enquiries form */
-
-.enquiries-form {
-    padding: 20px;
-    margin-top: 20px;
-}
-
-.enquiries-form__textarea {
-    height: 20vh;
-    width: 100%;
-}
-
-@media screen and (max-width: 768px) {
-    .enquiries-form {
-        margin-top: 15px;
-    }
-}
-
-@media screen and (max-width: 372px) {
-    .enquiries-form {
-        margin-top: 10px;
-    }
-}
-
-/* Google maps */
-
-.google-maps__container {
-    padding: 20px;
-}
-
-.google-maps {
-    border-radius: var(--border-radius);
-}
-
-@media screen and (max-width: 768px) {
-    .google-maps {
-        height: 400px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .google-maps {
-        height: 400px;
-    }
-}
-
-@media screen and (max-width: 428px) {
-    .google-maps__container {
-        padding: 10px;
-    }
-}
-
 /* Gallery */
 
 .gallery {
@@ -1578,5 +1455,128 @@ footer li {
 @media screen and (max-width: 428px) {
     #modal-image {
         height: 50vh;
+    }
+}
+
+/* Contact card */
+
+.contact-card__content {
+    padding: 0 40px;
+    margin: auto 0;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.contact-card__image {
+    padding: 10px;
+}
+
+.contact-card__image>img {
+    border-radius: var(--border-radius);
+}
+
+.contact-card__content a {
+    color: #7daef8;
+    transition: color 0.3s;
+}
+
+.contact-card__content a:hover {
+    color: var(--color-primary);
+}
+
+@media screen and (max-width: 1024px) {
+    .contact-card__content {
+        padding: 0 24px;
+    }
+
+    .contact-card__image>img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-card__content {
+        padding: 40px;
+        text-align: center;
+    }
+
+    .contact-card__image {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .contact-card__content {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 372px) {
+    .contact-card__content {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 324px) {
+    .contact-card__content {
+        padding: 12px;
+    }
+
+    .contact-card__image {
+        padding: 12px;
+    }
+}
+
+/* Enquiries form */
+
+.enquiries-form {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.enquiries-form__textarea {
+    height: 20vh;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .enquiries-form {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 372px) {
+    .enquiries-form {
+        margin-top: 10px;
+    }
+}
+
+/* Google maps */
+
+.google-maps__container {
+    padding: 20px;
+}
+
+.google-maps {
+    border-radius: var(--border-radius);
+}
+
+@media screen and (max-width: 768px) {
+    .google-maps {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .google-maps {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .google-maps__container {
+        padding: 10px;
     }
 }
