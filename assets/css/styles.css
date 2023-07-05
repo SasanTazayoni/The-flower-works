@@ -727,23 +727,23 @@ ul>.nav__item {
 
 /* Hero image */
 
-.hero__container {
-    height: 80vh;
-    width: 100%;
+.hero-wrapper {
     overflow: hidden;
-    position: relative;
 }
 
-.hero__image {
-    height: 80vh;
+.hero__container {
+    overflow: hidden;
+    height: 90vh;
     width: 100%;
-    background: url(../images/hero-image.jpg) no-repeat;
+    background-image: url(../images/hero-image.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     animation: hero-zoom 2s ease-in-out forwards;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 @keyframes hero-zoom {
@@ -758,15 +758,6 @@ ul>.nav__item {
 
 .hero__heading {
     width: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: max-content;
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translateX(-50%) translateY(50%);
-    border-radius: var(--border-radius);
     animation: fade-in 2s ease-in-out forwards;
 }
 
