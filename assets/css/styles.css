@@ -86,6 +86,10 @@ h2 {
     h2 {
         font-size: 28px;
     }
+
+    .page__header {
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 428px) {
@@ -100,6 +104,10 @@ h2 {
 
     h2 {
         font-size: 24px;
+    }
+
+    .page__header {
+        margin-bottom: 15px;
     }
 }
 
