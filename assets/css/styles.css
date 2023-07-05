@@ -1222,6 +1222,20 @@ footer li {
     }
 }
 
+/* Services */
+
+.services__images {
+    display: flex;
+    justify-content: center;
+}
+
+.services__image {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
 /* Gallery */
 
 .gallery {
