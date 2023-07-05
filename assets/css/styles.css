@@ -1541,6 +1541,12 @@ footer li {
     width: 120%;
 }
 
+@media screen and (max-width: 1440px) {
+    .divider {
+        width: 100%;
+    }
+}
+
 /* Contact card */
 
 .contact-card__content {
