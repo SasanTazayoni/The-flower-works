@@ -1547,6 +1547,40 @@ footer li {
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .faq__container {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .faq__container {
+        margin-bottom: 24px;
+    }
+
+    .faq-question {
+        padding: 8px 0;
+    }
+
+    .faq-answer {
+        padding: 8px 0;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .faq__container {
+        margin-bottom: 16px;
+    }
+
+    .faq-question {
+        padding: 5px 0;
+    }
+
+    .faq-answer {
+        padding: 5px 0;
+    }
+}
+
 /* Contact card */
 
 .contact-card__content {
