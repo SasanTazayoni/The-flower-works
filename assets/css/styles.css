@@ -1166,7 +1166,7 @@ footer li {
         width: 80px;
     }
 
-    .footer__credits {
+    .footer__credits>p {
         max-width: 70%;
     }
 }
