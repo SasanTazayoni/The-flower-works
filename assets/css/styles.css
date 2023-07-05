@@ -56,7 +56,7 @@ h2 {
 }
 
 .page__header {
-    margin: 30px;
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -126,6 +126,7 @@ h2 {
 }
 
 .button__container {
+    margin-top: 30px;
     display: flex;
     justify-content: center;
 }
@@ -1182,6 +1183,34 @@ footer li {
 @media screen and (max-width: 324px) {
     .footer__menu li {
         padding: 12px;
+    }
+}
+
+/* About */
+
+.about p {
+    text-align: justify;
+}
+
+.about__image {
+    border-radius: var(--border-radius);
+    float: right;
+    width: 600px;
+    margin-left: 1.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .about__image {
+        margin: 0;
+        margin-bottom: 20px;
+        width: 100%;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .about__image {
+        margin-bottom: 12px;
     }
 }
 
