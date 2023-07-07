@@ -1,6 +1,6 @@
 # The Flower Works
 
-Welcome to The Flower Works README file! This has all the essential information about the florist business.
+Welcome to The Flower Works README file! This has all the essential information about the florist business website.
 
 ## Introduction
 
