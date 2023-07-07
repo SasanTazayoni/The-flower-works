@@ -8,4 +8,4 @@ The Flower Works is a renowned family-run florist specialising in exquisite flor
 
 The business currently has a website; however, it could benefit from enhanced features and a more contemporary design. As a result, I have undertaken a comprehensive revamp, which you can explore [here](https://sasantazayoni.github.io/The-flower-works/).
 
-![The Flower Works website on all various devices](https://imgur.com/a/NM6fYsA)
+![The Flower Works website on all various devices](assets/images/responsiveness.png)
