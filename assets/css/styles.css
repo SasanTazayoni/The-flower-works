@@ -1199,6 +1199,15 @@ footer li {
 
 /* Services */
 
+.pricing-list {
+    list-style-type: disc;
+    font-style: italic;
+}
+
+.pricing-list-item {
+    line-height: 35px;
+}
+
 .services__images {
     display: flex;
     justify-content: center;
