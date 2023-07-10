@@ -46,6 +46,7 @@ h1 {
     line-height: 90px;
     color: var(--block-light);
     text-align: center;
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
 }
 
 h2,
