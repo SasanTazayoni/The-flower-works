@@ -185,6 +185,12 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
+
+    .block,
+    .block--grey {
+        padding: 16px;
+    }
+
     .block__header {
         margin: 15px 0;
     }
@@ -194,11 +200,19 @@ h2 {
 
     .block,
     .block--grey {
-        padding: 16px;
+        padding: 12px;
     }
 
     .block__header {
         margin: 10px 0 12px 0;
+    }
+}
+
+@media screen and (max-width: 324px) {
+
+    .block,
+    .block--grey {
+        padding: 10px;
     }
 }
 
