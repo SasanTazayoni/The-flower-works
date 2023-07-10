@@ -763,6 +763,9 @@ ul>.nav__item {
 .hero__heading {
     width: 600px;
     animation: fade-in 2s ease-in-out forwards;
+    background: rgba(114, 43, 179, 0.35);
+    padding: 40px 0;
+    border-radius: var(--border-radius);
 }
 
 @keyframes fade-in {
@@ -793,6 +796,7 @@ ul>.nav__item {
     .hero__heading {
         margin: 10px;
         width: 240px;
+        padding: 30px 0;
     }
 }
 
