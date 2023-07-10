@@ -63,6 +63,10 @@ h2 {
     font-weight: 600;
 }
 
+.italic {
+    font-style: italic;
+}
+
 .page__header {
     margin-bottom: 30px;
 }
@@ -1201,7 +1205,6 @@ footer li {
 
 .pricing-list {
     list-style-type: disc;
-    font-style: italic;
     padding: 0 30px;
 }
 
