@@ -1202,6 +1202,7 @@ footer li {
 .pricing-list {
     list-style-type: disc;
     font-style: italic;
+    padding: 0 30px;
 }
 
 .pricing-list-item {
@@ -1221,6 +1222,10 @@ footer li {
 }
 
 @media screen and (max-width: 1024px) {
+    .pricing-list {
+        padding: 0 20px;
+    }
+
     .services__image {
         height: 150px;
         width: 150px;
@@ -1229,6 +1234,14 @@ footer li {
 }
 
 @media screen and (max-width: 768px) {
+    .pricing-list {
+        padding: 0 15px;
+    }
+
+    .pricing-list-item {
+        line-height: 25px;
+    }
+
     .services__image {
         height: 80px;
         width: 80px;
@@ -1237,6 +1250,14 @@ footer li {
 }
 
 @media screen and (max-width: 428px) {
+    .pricing-list {
+        padding: 0 12px;
+    }
+
+    .pricing-list-item {
+        line-height: 20px;
+    }
+
     .services__image {
         height: 60px;
         width: 60px;
@@ -1244,7 +1265,21 @@ footer li {
     }
 }
 
+@media screen and (max-width: 372px) {
+    .pricing-list-item {
+        line-height: 18px;
+    }
+}
+
 @media screen and (max-width: 324px) {
+    .pricing-list {
+        padding: 0 10px;
+    }
+
+    .pricing-list-item {
+        line-height: 16px;
+    }
+
     .services__image {
         height: 50px;
         width: 50px;
