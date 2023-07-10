@@ -1571,11 +1571,11 @@ footer li {
 
 .faq-question {
     background: var(--block-grey);
-    padding: 10px 0;
+    padding: 10px 5px;
 }
 
 .faq-answer {
-    padding: 10px 0;
+    padding: 10px 5px;
 }
 
 .divider {
@@ -1607,11 +1607,11 @@ footer li {
     }
 
     .faq-question {
-        padding: 8px 0;
+        padding: 8px 4px;
     }
 
     .faq-answer {
-        padding: 8px 0;
+        padding: 8px 4px;
     }
 }
 
@@ -1621,11 +1621,11 @@ footer li {
     }
 
     .faq-question {
-        padding: 5px 0;
+        padding: 5px 3px;
     }
 
     .faq-answer {
-        padding: 5px 0;
+        padding: 5px 3px;
     }
 }
 
