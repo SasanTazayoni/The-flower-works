@@ -55,11 +55,11 @@ The website is thoughtfully crafted to emanate a vibrant sense of beauty. It sea
 
 All Wireframes were designed for larger screens such as laptops or computers; for medium sized screens such as tablets or large phones; and for small screens down to the smallest phone display.
 
-Home page: ![Wireframe of the home page](assets/images/homepage.png)
-About page: ![Wireframe of the home page](assets/images/aboutpage.png)
-Services page: ![Wireframe of the home page](assets/images/servicespage.png)
-Gallery page: ![Wireframe of the home page](assets/images/gallerypage.png)
-FAQ page: ![Wireframe of the home page](assets/images/faqpage.png)
-Contact page: ![Wireframe of the home page](assets/images/contactpage.png)
+Home page: ![Wireframe of the home page](assets/images/homepage.jpg)
+About page: ![Wireframe of the home page](assets/images/aboutpage.jpg)
+Services page: ![Wireframe of the home page](assets/images/servicespage.jpg)
+Gallery page: ![Wireframe of the home page](assets/images/gallerypage.jpg)
+FAQ page: ![Wireframe of the home page](assets/images/faqpage.jpg)
+Contact page: ![Wireframe of the home page](assets/images/contactpage.jpg)
 
 The wireframes do not fully correspond with the end product due to multiple changes made throughout the production phase.
