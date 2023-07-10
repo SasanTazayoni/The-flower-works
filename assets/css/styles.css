@@ -800,6 +800,12 @@ ul>.nav__item {
     }
 }
 
+@media screen and (max-width: 372px) {
+    .hero__heading {
+        padding: 20px 0;
+    }
+}
+
 /* Testimonials block */
 
 .testimonials__card {
