@@ -59,6 +59,10 @@ h2 {
     font-size: 40px;
 }
 
+.bold {
+    font-weight: 600;
+}
+
 .page__header {
     margin-bottom: 30px;
 }
@@ -1583,10 +1587,6 @@ footer li {
 .contact-card__content {
     padding: 0 40px;
     margin: auto 0;
-}
-
-.bold {
-    font-weight: 600;
 }
 
 .contact-card__image {
