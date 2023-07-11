@@ -155,7 +155,7 @@ Flower Works' distinctly emphasizes and signifies the nature of the business.
     * Screenshot of a part of the gallery page:
       ![Gallery segment](assets/images/readme/SS4.png)
     * Screenshot of the open modal:
-      ![Large image view (modal)](assets/images/readme/SS5.png)
+         ![Large image view (modal)](assets/images/readme/SS5.png)
  
 * As a user, I want to be able to contact someone to ask specific questions and make delivery orders.
     * The contact page provides an email address, an enquiries form and a contact number along with the business' opening times for convenience.
@@ -176,6 +176,6 @@ Flower Works' distinctly emphasizes and signifies the nature of the business.
     * Screenshot of footer navigation links:
       ![Footer nav links](assets/images/readme/SS10.png)
     * Screenshot of some buttons:
-      ![Example of buttons](assets/images/readme/SS11.png)
+         ![Example of buttons](assets/images/readme/SS11.png)
     * Screenshot of scroll up button:
-      ![Scroll up button](assets/images/readme/SS12.png)
+         ![Scroll up button](assets/images/readme/SS12.png)
