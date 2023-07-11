@@ -49,7 +49,7 @@ The images play a vital role in terms of the user experience on a florist websit
 
 ### Overview
 
-The website is thoughtfully crafted to emanate a vibrant sense of beauty. It seamlessly combines accessibility with small yet impactful features, creating a modern, artistic, and elegantly simplistic design.
+The website is thoughtfully crafted to emanate a vibrant sense of beauty. It seamlessly combines accessibility with small yet impactful features, creating a modern, artistic and elegantly simplistic design.
 
 ## Wireframes
 
@@ -81,3 +81,35 @@ Contact page:
 
 
 The wireframes do not fully correspond with the end product due to multiple changes made throughout the production phase.
+
+## Features
+
+### Current features
+
+* All pages are designed using Responsive Design and are fully responsive on all devices.
+* The navigation menu collapses on smaller viewports allowing for a more compact view.
+* The company logo only displays an icon in smaller viewports for simplicity.
+* Navigation bar icons have tooltips for clarity.
+* The drop-down menu on the navigation bar has small icons as bullet points that represent the text.
+* All anchor links have a visual effect that brightens when hovered over.
+* All buttons have a visual effect that brightens the text when hovered over as well as an additional ripple effect for aesthetics.
+* All pages have a navigation button in the bottom right corner to be able to navigate to the top of the page which only appears when scrolling down from the navigation bar.
+* The testimonials section on the home page features interactive buttons for switching between different testimonials, accompanied by tabs that indicate the corresponding testimonial numbers.
+* The gallery page has been carefully engineered to showcase flowers on all viewports with a hover effect that elegantly reveals the name of the flowers.
+* When clicking on each flower image on the gallery page, a modal image is triggered, providing an enlarged and detailed view.
+* The enquiries form on the contact page is integrated with the backend server, formspree.io. This integration facilitates efficient handling of enquiries, ensuring that they are directly forwarded to the company's designated email address.
+* The contact page also features an embedded Google Maps location, providing a visual representation of the company's address for easy reference.
+
+## Future features
+
+* To enhance customer feedback and engagement, an optional reviews section can be integrated as an extension to the contact page, allowing customers to share their valuable reviews and experiences with the business.
+* To streamline the ordering process, provide responsive customer support, and gather valuable feedback, the introduction of a chatbot with notifications can enhance the website's functionality. The chatbot will facilitate order placement, address customer inquiries, and enable efficient communication for an enhanced user experience.
+* To facilitate communication and provide quick assistance, the addition of a live chat feature allows users to easily connect with the florist. This feature enables direct interaction, allowing customers to inquire about availability, explore delivery options, and seek answers to any other inquiries they may have.
+
+## Technologies used
+
+### Languages
+
+* HTML5
+* CSS3
+* JavaScript
