@@ -8,7 +8,7 @@ The Flower Works is a renowned family-run florist specialising in exquisite flor
 
 The business currently has a website; however, it could benefit from enhanced features and a more contemporary design. As a result, I have undertaken a comprehensive revamp, which you can explore [here](https://sasantazayoni.github.io/The-flower-works/).
 
-![The Flower Works website on all various devices](assets/images/responsiveness.png)
+![The Flower Works website on all various devices](assets/images/readme/responsiveness.png)
 
 ## User Experience (UX)
 
@@ -26,7 +26,7 @@ The business currently has a website; however, it could benefit from enhanced fe
 
 Colour scheme:
 
-![Color Swatches](assets/images/colors.png)
+![Color Swatches](assets/images/readme/colors.png)
 
 This combination creates a visually appealing and captivating colour palette that is both vibrant and harmonious.
 
@@ -57,27 +57,27 @@ All Wireframes were designed for larger screens such as laptops or computers; fo
 
 Home page:
 
-![Wireframe of the home page](assets/images/homepage.jpg)
+![Wireframe of the home page](assets/images/readme/homepage.jpg)
 
 About page:
 
-![Wireframe of the home page](assets/images/aboutpage.jpg)
+![Wireframe of the home page](assets/images/readme/aboutpage.jpg)
 
 Services page:
 
-![Wireframe of the home page](assets/images/servicespage.jpg)
+![Wireframe of the home page](assets/images/readme/servicespage.jpg)
 
 Gallery page:
 
-![Wireframe of the home page](assets/images/gallerypage.jpg)
+![Wireframe of the home page](assets/images/readme/gallerypage.jpg)
 
 FAQ page:
 
-![Wireframe of the home page](assets/images/faqpage.jpg)
+![Wireframe of the home page](assets/images/readme/faqpage.jpg)
 
 Contact page:
 
-![Wireframe of the home page](assets/images/contactpage.jpg)
+![Wireframe of the home page](assets/images/readme/contactpage.jpg)
 
 
 The wireframes do not fully correspond with the end product due to multiple changes made throughout the production phase.
