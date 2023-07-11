@@ -207,7 +207,7 @@ One of the most helpful ways to test throughout the establishment of this websit
 
 | Name | Age | Florist BG | Tech BG |
 | --- | --- | --- | --- |
-| Jackie | 65 | High | None |
+| Laura | 36 | High | None |
 | Amy | 36 | None | High |
 | Nathalie | 45 | None | High |
 | Zara | 65 | None | None |
