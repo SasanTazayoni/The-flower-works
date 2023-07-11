@@ -188,6 +188,13 @@ Flower Works' distinctly emphasizes and signifies the nature of the business.
      * Samsung Internet
 * iPhone 6
      * Safari
+* iPhone SE
+     * Safari
+     * Google Chrome
+* iPhone 12 Mini
+     * Safari
+* iPhone 14
+     * Safari
 * iPad 11" Pro
      * Safari
 * Aorus 7
@@ -207,10 +214,11 @@ One of the most helpful ways to test throughout the establishment of this websit
 
 | Name | Age | Florist BG | Tech BG |
 | --- | --- | --- | --- |
-| Jackie | 65 | High | None |
+| Laura | 36 | High | None |
 | Amy | 36 | None | High |
 | Nathalie | 45 | None | High |
 | Zara | 65 | None | None |
+| Saba | 30 | None | High |
 
 ### Lighthouse
 
@@ -221,12 +229,14 @@ Lighthouse was a helpful tool for checking where where the website was experienc
 The results indicate that the website is of excellent quality. There are a few issues that were raised:
 
 * High quality images can be a detriment to users with a slow connection speed and therefore need further optimisation. Since the existing pictures are all placeholders, it is unnecessary to optimise until the real pictures are delivered.
-* List items should be direct children of a <ul> or <ol> element for proper list structure. While this doesn't significantly impact accessibility, it's a best practice to keep in mind for future projects.
+* List items should be direct children of a unordered list or ordered list element for proper list structure. While this doesn't significantly impact accessibility, it's a best practice to keep in mind for future projects.
 * The website may have some font sizes that are too small for optimal readability on mobile screens (below 12px). While the font sizes are never below 10px, it is recommended to adhere to a minimum of 12px for text to ensure better mobile-friendly experience and readability for future projects.
 
 ### PowerMapper
 
 ![PowerMapper report](assets/images/readme/powermapper.png)
+
+As the results show, the website is highly compatible across all browsers.
 
 ### Bugs
 
