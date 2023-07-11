@@ -188,6 +188,13 @@ Flower Works' distinctly emphasizes and signifies the nature of the business.
      * Samsung Internet
 * iPhone 6
      * Safari
+* iPhone SE
+     * Safari
+     * Google Chrome
+* iPhone 12 Mini
+     * Safari
+* iPhone 14
+     * Safari
 * iPad 11" Pro
      * Safari
 * Aorus 7
@@ -211,6 +218,7 @@ One of the most helpful ways to test throughout the establishment of this websit
 | Amy | 36 | None | High |
 | Nathalie | 45 | None | High |
 | Zara | 65 | None | None |
+| Saba | 30 | None | High |
 
 ### Lighthouse
 
