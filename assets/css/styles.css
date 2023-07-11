@@ -574,7 +574,6 @@ ul>.nav__item {
 
 .nav__item i {
     font-size: 16px;
-
 }
 
 @media screen and (max-width: 1024px) {
@@ -611,6 +610,10 @@ ul>.nav__item {
 }
 
 @media screen and (max-width: 768px) {
+    nav li {
+        padding: 0;
+    }
+
     .nav__component {
         display: flex;
     }
@@ -694,13 +697,20 @@ ul>.nav__item {
     .collapsible__toggler:hover::before {
         --scale: 1;
     }
+
+    .nav__item {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav__item>a {
+        display: block;
+        padding: 15px;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 428px) {
-    nav li {
-        padding: 12px;
-    }
-
     a>li {
         font-size: 16px;
     }
@@ -721,6 +731,10 @@ ul>.nav__item {
     a>li:hover {
         color: var(--color-secondary);
         fill: var(--color-secondary);
+    }
+
+    .nav__item>a {
+        padding: 12px;
     }
 }
 
@@ -759,12 +773,6 @@ ul>.nav__item {
 
     .instagram-link::before {
         padding: 0.3rem;
-    }
-}
-
-@media screen and (max-width: 324px) {
-    nav li {
-        padding: 10px;
     }
 }
 
