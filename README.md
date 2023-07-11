@@ -202,3 +202,19 @@ Flower Works' distinctly emphasizes and signifies the nature of the business.
 When there were browsers that were inaccessible at the time of testing, responsinator was used to make sure that the website was fully responsive on all devices.
 
 ### Third-Party Testing
+
+One of the most helpful ways to test throughout the establishment of this website was to have a few different people test it on various devices. I chose a select group based on their various ages/backgrounds to be able to receive well-rounded feedback.
+
+| Name | Age | Florist BG | Tech BG |
+| --- | --- | --- | --- |
+| Jackie | 65 | High | None |
+| Amy | 36 | None | High |
+| Nathalie | 45 | None | High |
+| Zara | 65 | None | None |
+
+### Lighthouse
+
+Lighthouse was a helpful tool for checking where I was having issues with the performance of the site.
+
+
+
