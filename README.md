@@ -214,7 +214,39 @@ One of the most helpful ways to test throughout the establishment of this websit
 
 ### Lighthouse
 
-Lighthouse was a helpful tool for checking where I was having issues with the performance of the site.
+Lighthouse was a helpful tool for checking where where the website was experiencing the most issues.
 
+![Scroll up button](assets/images/readme/lighthouse.png)
 
+The results indicate that the website is of excellent quality. There are a few issues that were raised:
 
+* High quality images can be a detriment to users with a slow connection speed and therefore need further optimisation. Since the existing pictures are all placeholders, it is unnecessary to optimise until the real pictures are delivered.
+* List items should be direct children of a <ul> or <ol> element for proper list structure. While this doesn't significantly impact accessibility, it's a best practice to keep in mind for future projects.
+* The website may have some font sizes that are too small for optimal readability on mobile screens (below 12px). While the font sizes are never below 10px, it is recommended to adhere to a minimum of 12px for text to ensure better mobile-friendly experience and readability for future projects.
+
+### PowerMapper
+
+![PowerMapper report](assets/images/readme/powermapper.png)
+
+### Bugs
+
+* There are no known bugs and any that existed were promptly addressed and fixed.
+
+## Deployment
+
+1 Log into [GitHub](https://github.com/).
+2 Locate the [repository](https://github.com/SasanTazayoni/The-flower-works).
+3 Locate the settings option along the options bar at the top of the page.
+4 Locate the 'Pages' option on the left side bar and click on it.
+5 Under the 'Branch' subheading there should be a drop-down menu - select 'Master' from the branch options.
+6 Click the save button.
+7 Github pages will build your website with the code supplied and begin hosting it when it is completed - the process usually takes a few minutes.
+8 The website URL will now be visible on the green bar under the section header. This will remain there permanently and you can refer back to it at any time.
+
+## Credits
+
+* Thanks to Kevin Powell and WebDevSimplified from YouTube for best practices in code.
+* Thanks to Programming with Mosh from YouTube for image optimisation techniques and knowledge of useful web applications.
+* Thanks to Jackie & Laura for inspiration to make this website.
+* Thanks to my friends and family for thoroughly testing out my website and giving useful suggestions (especially Amy).
+* Thanks to my mentor Antonio Rodriguez for the helpful direction in starting this project and all of the helpful resources you provided that helped throughout.
