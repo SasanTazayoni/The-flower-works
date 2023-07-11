@@ -141,41 +141,53 @@ At the completion or heavy editing of sections, I used the following websites to
     * The hero image prominently conveys the essence of the business as a florist on the home page, while the logo effectively captures and represents the brand identity of the business. Furthermore, the name 'The       
 Flower Works' distinctly emphasizes and signifies the nature of the business.
     * Screenshot of the home page hero image:
+      <br />
       ![Home page](assets/images/readme/SS1.png)
 
 * As a user, I want to be able to see the prices of products without having to search through various pages.
     * The pricing of flowers is determined based on the specific type of order or requested service. The home page provides an overview of the pricing, while the services page offers a comprehensive breakdown of the different pricing options available.
     * Screenshot of the pricing overview on the home page:
+      <br />
       ![Home page price overview](assets/images/readme/SS2.png)
     * Screenshot of the full pricing breakdown on the services page:
+      <br />
       ![Services page pricing](assets/images/readme/SS3.png)
 
 * As a user, I want to be able to browse through a variety of floral arrangements to see what is available to me.
     * The gallery page offers a comprehensive showcase of various floral arrangements, each accompanied by a dedicated large image for closer examination. It's important to note that while the gallery provides a rich display, it may not encompass the entirety of available options as certain flowers are subject to seasonal availability.
     * Screenshot of a part of the gallery page:
+      <br />
       ![Gallery segment](assets/images/readme/SS4.png)
     * Screenshot of the open modal:
+      <br />
       <br />![Large image view (modal)](assets/images/readme/SS5.png)
  
 * As a user, I want to be able to contact someone to ask specific questions and make delivery orders.
     * The contact page provides an email address, an enquiries form and a contact number along with the business' opening times for convenience.
     * Screenshot of contact card on contact page:
+      <br />
       ![Contact card](assets/images/readme/SS6.png)
     * Screenshot of enquiries form on contact page:
+      <br />
       ![Enquiries form](assets/images/readme/SS7.png)
   
 * As a user, I want to be able to be able to find the business location.
     * The contact page features an embedded Google Maps location that includes an image and the business address, allowing users to easily locate and navigate to our establishment.
     * Screenshot of Google Maps:
+      <br />
       ![Google Maps](assets/images/readme/SS8.png)
 
 * As a user, I want to be able to navigate around the website easily.
     * In addition to the navigation links positioned at the top and bottom of every page, the website incorporates prominently labeled buttons for seamless navigation throughout the site. Furthermore, a conveniently located button in the bottom right corner allows users to effortlessly return to the top of each page.
     * Screenshot of navigation bar navigation links:
+      <br />
       ![Navbar nav links](assets/images/readme/SS9.png)
     * Screenshot of footer navigation links:
+      <br />
       ![Footer nav links](assets/images/readme/SS10.png)
     * Screenshot of some buttons:
+      <br />
       <br />![Example of buttons](assets/images/readme/SS11.png)
     * Screenshot of scroll up button:
+      <br />
       <br />![Scroll up button](assets/images/readme/SS12.png)
