@@ -18,7 +18,6 @@ The business currently has a website; however, it could benefit from enhanced fe
 * As a user, I want to be able to see the prices of products without having to search through various pages.
 * As a user, I want to be able to browse through a variety of floral arrangements to see what is available to me.
 * As a user, I want to be able to contact someone to ask specific questions and make delivery orders.
-* As a user, I want to be able to make enquiries at any time.
 * As a user, I want to be able to be able to find the business location.
 * As a user, I want to be able to navigate around the website easily.
 
@@ -117,9 +116,54 @@ The wireframes do not fully correspond with the end product due to multiple chan
 * [PowerMapper](https://www.powermapper.com/) used to check compatibility of website with other browsers.
 * [Amiresposive](https://amiresponsive.co.uk/) used to display website on the most common devices.
 * [Responsinator](http://www.responsinator.com/) used to check if site was responsive on different screen sizes.
-* [Photoshop](https://www.adobe.com/uk/products/photoshop/landpa.html?gclid=CjwKCAjw-7OlBhB8EiwAnoOEk486wrsqQhAsQwi7Gm7mBtoSpJ3lTGXuOPmdoI9xUIkdRLqYvLOhJRoCdUwQAvD_BwE&mv=search&mv=search&sdid=GVTYXZY8&ef_id=CjwKCAjw-7OlBhB8EiwAnoOEk486wrsqQhAsQwi7Gm7mBtoSpJ3lTGXuOPmdoI9xUIkdRLqYvLOhJRoCdUwQAvD_BwE:G:s&s_kwcid=AL!3085!3!594259335328!e!!g!!photoshop!17011954556!138864789107&gad=1) used to resize photos.
+* [Photoshop](https://www.adobe.com/uk/products/photoshop/) used to resize photos.
 * [Tinypng](https://tinypng.com/) used to compress image files for better performance.
 * [Block-element-modifier naming convention](https://www.geeksforgeeks.org/understanding-the-css-bem-convention/) used for naming CSS classes.
 * [AOS animations](https://github.com/michalsnik/aos) offer dynamic JavaScript-based animations that can be utilised to create captivating visual effects, including smooth fade-ins and delightful flipping transitions throughout the website.
 * [Formspree](https://formspree.io/) used in the enquiries form to provide a backend, enabling efficient routing of email enquiries directly to the business owner.
-* [ChatGPT](https://chat.openai.com/) used to generate placeholder text.
+* [ChatGPT](https://chat.openai.com/) used to generate placeholder text and to verify code.
+* [Unsplash](https://unsplash.com/) used to obtain placeholder pictures.
+* [Pexels](https://www.pexels.com/) used to obtain placeholder pictures.
+
+## Testing
+
+### Validating
+
+At the completion or heavy editing of sections, I used the following websites to check my code for syntax errors:
+
+* [HTML validator](https://validator.w3.org/)
+* [CSS validator](https://jigsaw.w3.org/css-validator/)
+* [JavaScript validator](https://esprima.org/demo/validate.html)
+
+### Testing User Stories from (UX) section
+
+* As a user, I want to be able to understand the business brand at a first look.
+    * The hero image prominently conveys the essence of the business as a florist on the home page, while the logo effectively captures and represents the brand identity of the business. Furthermore, the name 'The       
+Flower Works' distinctly emphasizes and signifies the nature of the business.
+    * ![Home page](assets/images/readme/SS1.png)
+
+* As a user, I want to be able to see the prices of products without having to search through various pages.
+    * The pricing of flowers is determined based on the specific type of order or requested service. The home page provides an overview of the pricing, while the services page offers a comprehensive breakdown of the different pricing options available.
+    * ![Home page price overview](assets/images/readme/SS2.png)
+    * ![Services page pricing](assets/images/readme/SS3.png)
+
+* As a user, I want to be able to browse through a variety of floral arrangements to see what is available to me.
+    * The gallery page offers a comprehensive showcase of various floral arrangements, each accompanied by a dedicated large image for closer examination. It's important to note that while the gallery provides a rich display, it may not encompass the entirety of available options as certain flowers are subject to seasonal availability.
+    * ![Gallery segment](assets/images/readme/SS4.png)
+    * ![Large image view (modal)](assets/images/readme/SS5.png)
+ 
+* As a user, I want to be able to contact someone to ask specific questions and make delivery orders.
+    * The contact page provides an email address, an enquiries form and a contact number along with the business' opening times for convenience.
+    * ![Contact card](assets/images/readme/SS6.png)
+    * ![Enquiries form](assets/images/readme/SS7.png)
+  
+* As a user, I want to be able to be able to find the business location.
+    * The contact page features an embedded Google Maps location that includes an image and the business address, allowing users to easily locate and navigate to our establishment.
+    * ![Google Maps](assets/images/readme/SS8.png)
+
+* As a user, I want to be able to navigate around the website easily.
+    * In addition to the navigation links positioned at the top and bottom of every page, the website incorporates prominently labeled buttons for seamless navigation throughout the site. Furthermore, a conveniently located button in the bottom right corner allows users to effortlessly return to the top of each page.
+    * ![Navbar nav links](assets/images/readme/SS9.png)
+    * ![Footer nav links](assets/images/readme/SS10.png)
+    * ![Example of buttons](assets/images/readme/SS11.png)
+    * ![Scroll up button](assets/images/readme/SS12.png)
