@@ -818,6 +818,10 @@ ul>.nav__item {
 }
 
 @media screen and (max-width: 1024px) {
+    .hero__container {
+        background-image: url(../images/hero-image-medium.jpg);
+    }
+
     .hero__heading {
         margin: 16px;
         width: 520px;
@@ -832,6 +836,10 @@ ul>.nav__item {
 }
 
 @media screen and (max-width: 428px) {
+    .hero__container {
+        background-image: url(../images/hero-image-small.jpg);
+    }
+
     .hero__heading {
         margin: 10px;
         width: 240px;
