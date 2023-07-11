@@ -57,28 +57,15 @@ All Wireframes were designed for larger screens such as laptops or computers; fo
 
 [Home page](https://imgur.com/gokHG2Y)
 
-![Wireframe of the home page](assets/images/readme/homepage.jpg)
+[About page](https://imgur.com/nih7hYC)
 
-About page:
+[Services page](https://imgur.com/f8ZBskQ)
 
-![Wireframe of the home page](assets/images/readme/aboutpage.jpg)
+[Gallery page](https://imgur.com/LG0Pxkk)
 
-Services page:
+[FAQ page](https://imgur.com/JdX95BY)
 
-![Wireframe of the home page](assets/images/readme/servicespage.jpg)
-
-Gallery page:
-
-![Wireframe of the home page](assets/images/readme/gallerypage.jpg)
-
-FAQ page:
-
-![Wireframe of the home page](assets/images/readme/faqpage.jpg)
-
-Contact page:
-
-![Wireframe of the home page](assets/images/readme/contactpage.jpg)
-
+[Contact page](https://imgur.com/4oEYQZa)
 
 The wireframes do not fully correspond with the end product due to multiple changes made throughout the production phase.
 
