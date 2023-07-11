@@ -883,7 +883,7 @@ ul>.nav__item {
     outline: none;
 }
 
-.testimonials__button.prev {
+.testimonials__button.previous {
     left: 15px;
 }
 
@@ -948,7 +948,7 @@ ul>.nav__item {
         font-size: 30px;
     }
 
-    .testimonials__button.prev {
+    .testimonials__button.previous {
         left: 8px;
     }
 
@@ -992,7 +992,7 @@ ul>.nav__item {
         font-size: 24px;
     }
 
-    .testimonials__button.prev {
+    .testimonials__button.previous {
         left: 5px;
     }
 
