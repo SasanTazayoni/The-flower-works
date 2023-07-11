@@ -124,6 +124,7 @@ The wireframes do not fully correspond with the end product due to multiple chan
 * [ChatGPT](https://chat.openai.com/) used to generate placeholder text and to verify code.
 * [Unsplash](https://unsplash.com/) used to obtain placeholder pictures.
 * [Pexels](https://www.pexels.com/) used to obtain placeholder pictures.
+* [StackOverflow](https://stackoverflow.com/) used to problem solve and deal with queries.
 
 ## Testing
 
@@ -179,3 +180,25 @@ Flower Works' distinctly emphasizes and signifies the nature of the business.
       <br />![Example of buttons](assets/images/readme/SS11.png)
     * Screenshot of scroll up button:
       <br />![Scroll up button](assets/images/readme/SS12.png)
+
+### Personal testing
+
+* Samsung Galaxy S9
+     * Google Chrome
+     * Samsung Internet
+* iPhone 6
+     * Safari
+* iPad 11" Pro
+     * Safari
+* Aorus 7
+     * Google Chrome
+     * Mozilla Firefox
+     * Microsoft Edge
+     * Opera
+     * Brave
+
+### Responsinator
+
+When there were browsers that were inaccessible at the time of testing, responsinator was used to make sure that the website was fully responsive on all devices.
+
+### Third-Party Testing
