@@ -100,3 +100,26 @@ The wireframes do not fully correspond with the end product due to multiple chan
 * HTML5
 * CSS3
 * JavaScript
+
+## Frameworks, libraries and programs used
+
+* [Font Awesome](https://fontawesome.com/) used for icons.
+* [Coolors](https://coolors.co/) used to display colour palette used on the website.
+* [Looka](https://looka.com/) used to create brand logo.
+* [imgur](https://imgur.com/) used to host wireframe images.
+* [Google Fonts](https://fonts.google.com/) used to import 'Playfair Display' and 'Roboto' fonts.
+* [Google Maps](https://www.google.co.uk/maps) used to import business location to the contact page.
+* [Github](https://github.com/) used to host repository.
+* [Codeanywhere](https://app.codeanywhere.com/) used to develop project and organise version control.
+* [Github pages](https://pages.github.com/) used to deploy the website.
+* [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) used for performance review.
+* [Caniuse](https://caniuse.com/) used to check compatibility of code syntax with other browsers.
+* [PowerMapper](https://www.powermapper.com/) used to check compatibility of website with other browsers.
+* [Amiresposive](https://amiresponsive.co.uk/) used to display website on the most common devices.
+* [Responsinator](http://www.responsinator.com/) used to check if site was responsive on different screen sizes.
+* [Photoshop](https://www.adobe.com/uk/products/photoshop/landpa.html?gclid=CjwKCAjw-7OlBhB8EiwAnoOEk486wrsqQhAsQwi7Gm7mBtoSpJ3lTGXuOPmdoI9xUIkdRLqYvLOhJRoCdUwQAvD_BwE&mv=search&mv=search&sdid=GVTYXZY8&ef_id=CjwKCAjw-7OlBhB8EiwAnoOEk486wrsqQhAsQwi7Gm7mBtoSpJ3lTGXuOPmdoI9xUIkdRLqYvLOhJRoCdUwQAvD_BwE:G:s&s_kwcid=AL!3085!3!594259335328!e!!g!!photoshop!17011954556!138864789107&gad=1) used to resize photos.
+* [Tinypng](https://tinypng.com/) used to compress image files for better performance.
+* [Block-element-modifier naming convention](https://www.geeksforgeeks.org/understanding-the-css-bem-convention/) used for naming CSS classes.
+* [AOS animations](https://github.com/michalsnik/aos) offer dynamic JavaScript-based animations that can be utilised to create captivating visual effects, including smooth fade-ins and delightful flipping transitions throughout the website.
+* [Formspree](https://formspree.io/) used in the enquiries form to provide a backend, enabling efficient routing of email enquiries directly to the business owner.
+* [ChatGPT](https://chat.openai.com/) used to generate placeholder text.
