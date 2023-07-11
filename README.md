@@ -255,8 +255,8 @@ As the results show, the website is highly compatible across all browsers.
 
 ## Credits
 
-* Thanks to Kevin Powell and WebDevSimplified from YouTube for best practices in code.
-* Thanks to Programming with Mosh from YouTube for image optimisation techniques and knowledge of useful web applications.
+* Thanks to [Kevin Powell](https://www.youtube.com/@KevinPowell) and [WebDevSimplified](https://www.youtube.com/@WebDevSimplified) from YouTube for best practices in code.
+* Thanks to [Programming with Mosh](https://www.youtube.com/@programmingwithmosh) from YouTube for image optimisation techniques and knowledge of useful web applications.
 * Thanks to Jackie & Laura for inspiration to make this website.
 * Thanks to my friends and family for thoroughly testing out my website and giving useful suggestions (especially Amy).
 * Thanks to my mentor Antonio Rodriguez for the helpful direction in starting this project and all of the helpful resources you provided that helped throughout.
