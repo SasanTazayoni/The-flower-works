@@ -335,7 +335,7 @@ div>.button:hover {
 }
 
 .grid--1x2 {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: max-content 1fr;
 }
 
 .grid--1x4 {
@@ -347,6 +347,12 @@ div>.button:hover {
 @media screen and (max-width: 1440px) {
     .grid--1x4 {
         grid-template-columns: repeat(3, 32%);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .grid--1x2 {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -1651,6 +1657,9 @@ footer li {
 
 .contact-card__image>img {
     border-radius: var(--border-radius);
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
 }
 
 .contact-card__content a {
