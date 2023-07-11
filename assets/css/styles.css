@@ -600,7 +600,7 @@ ul>.nav__item {
 
     .instagram-link::before,
     .instagram-link::after {
-        font-size: 11px;
+        font-size: 12px;
         transform: translateX(-50%) translateY(100%) scale(var(--scale));
     }
 
@@ -637,6 +637,11 @@ ul>.nav__item {
         display: none;
     }
 
+    .instagram-link::before,
+    .instagram-link::after {
+        display: none;
+    }
+
     .collapsible__toggler>i {
         font-size: 40px;
         color: var(--color-secondary);
@@ -669,33 +674,6 @@ ul>.nav__item {
     .collapsible__toggler {
         position: relative;
         background: var(--color-accent);
-    }
-
-    .collapsible__toggler::before,
-    .collapsible__toggler::after {
-        --scale: 0;
-        position: absolute;
-        left: 50%;
-        font-size: 12px;
-        transform: translateX(-50%) translateY(140%) scale(var(--scale));
-        transition: 0.2s transform;
-        transform-origin: top center;
-        z-index: 1;
-    }
-
-    .collapsible__toggler::before {
-        content: attr(data-menu-tooltip);
-        color: var(--color-accent);
-        background: var(--color-primary);
-        border-radius: 0.3rem;
-        padding: 0.5rem;
-        opacity: 0.5;
-        text-align: center;
-        width: max-content;
-    }
-
-    .collapsible__toggler:hover::before {
-        --scale: 1;
     }
 
     .nav__item {
@@ -753,26 +731,6 @@ ul>.nav__item {
 
     .collapsible__toggler>i {
         font-size: 30px;
-    }
-
-    .collapsible__toggler::before,
-    .collapsible__toggler::after {
-        font-size: 10px;
-        transform: translateX(-50%) translateY(180%) scale(var(--scale));
-    }
-
-    .collapsible__toggler::before {
-        padding: 0.3rem;
-    }
-
-    .instagram-link::before,
-    .instagram-link::after {
-        font-size: 10px;
-        transform: translateX(-50%) translateY(100%) scale(var(--scale));
-    }
-
-    .instagram-link::before {
-        padding: 0.3rem;
     }
 }
 
