@@ -1237,6 +1237,7 @@ footer li {
     height: 200px;
     width: 200px;
     margin: 20px;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 1024px) {
