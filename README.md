@@ -206,7 +206,14 @@ Flower Works' distinctly emphasizes and signifies the nature of the business.
 
 ### Responsinator
 
-When there were browsers that were inaccessible at the time of testing, responsinator was used to make sure that the website was fully responsive on all devices.
+When there were browsers that were inaccessible at the time of testing, responsinator was used to make sure that the website was fully responsive on all devices. The results can be viewed for the following:
+
+!(Home page)[http://www.responsinator.com/?url=sasantazayoni.github.io%2FThe-flower-works%2F]
+!(About page)[http://www.responsinator.com/?url=sasantazayoni.github.io%2FThe-flower-works%2Fabout.html]
+!(Services page)[http://www.responsinator.com/?url=sasantazayoni.github.io%2FThe-flower-works%2Fservices.html]
+!(Gallery page)[http://www.responsinator.com/?url=sasantazayoni.github.io%2FThe-flower-works%2Fgallery.html]
+!(FAQ page)[http://www.responsinator.com/?url=sasantazayoni.github.io%2FThe-flower-works%2Ffaq.html]
+!(Contact page)[http://www.responsinator.com/?url=sasantazayoni.github.io%2FThe-flower-works%2Fcontact.html]
 
 ### Third-Party Testing
 
