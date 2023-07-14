@@ -125,6 +125,7 @@ The wireframes do not fully correspond with the end product due to multiple chan
 * [Unsplash](https://unsplash.com/) used to obtain placeholder pictures.
 * [Pexels](https://www.pexels.com/) used to obtain placeholder pictures.
 * [StackOverflow](https://stackoverflow.com/) used to problem solve and deal with queries.
+* [Cloudconvert](https://cloudconvert.com/) used to convert images to webp format.
 
 ## Testing
 
