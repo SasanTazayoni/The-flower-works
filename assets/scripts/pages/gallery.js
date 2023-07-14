@@ -12,7 +12,7 @@ openModalBtns.forEach(card => {
         let imageSrc = modalImage.getAttribute('src');
         const imageName = card.querySelector('h3').textContent;
 
-        imageSrc = 'assets/images/' + imageName.toLowerCase() + 'modal.jpg';
+        imageSrc = 'assets/images/' + imageName.toLowerCase() + 'modal.webp';
         modalImageName.textContent = imageName;
         modalImage.setAttribute('src', imageSrc);
 
