@@ -1149,8 +1149,12 @@ footer li {
     }
 
     .footer__menu li {
-        padding: 16px;
         border-bottom: 0.5px solid var(--color-border);
+    }
+
+    .footer__menu li a {
+        padding: 16px;
+        display: block;
     }
 
     .footer__logo {
