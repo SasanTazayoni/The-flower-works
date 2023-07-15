@@ -186,6 +186,8 @@ Flower Works' distinctly emphasizes and signifies the nature of the business.
 
 * Samsung Galaxy S9
      * Google Chrome
+     * Mozilla Firefox
+     * Microsoft Edge
      * Samsung Internet
 * iPhone 6
      * Safari
