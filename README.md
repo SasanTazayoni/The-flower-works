@@ -54,17 +54,17 @@ The website is thoughtfully crafted to emanate a vibrant sense of beauty. It sea
 
 All Wireframes were designed for larger screens such as laptops or computers; for medium sized screens such as tablets or large phones; and for small screens down to the smallest phone display. The wireframes can be viewed here:
 
-[Home page](https://imgur.com/gokHG2Y)
+[Home page](https://imgur.com/gokHG2Y) / [Home page mobile](https://imgur.com/Z3PfRbB)
 
-[About page](https://imgur.com/nih7hYC)
+[About page](https://imgur.com/nih7hYC) / [About page mobile](https://imgur.com/LneqiiU)
 
-[Services page](https://imgur.com/f8ZBskQ)
+[Services page](https://imgur.com/f8ZBskQ) / [Services page mobile](https://imgur.com/h8ZCngu)
 
-[Gallery page](https://imgur.com/LG0Pxkk)
+[Gallery page](https://imgur.com/LG0Pxkk) / [Gallery page mobile](https://imgur.com/AROpZsU)
 
-[FAQ page](https://imgur.com/JdX95BY)
+[FAQ page](https://imgur.com/JdX95BY) / [FAQ page mobile](https://imgur.com/lYpaAaJ)
 
-[Contact page](https://imgur.com/4oEYQZa)
+[Contact page](https://imgur.com/4oEYQZa) / [Contact page mobile](https://imgur.com/7EmRjfs)
 
 The wireframes do not fully correspond with the end product due to multiple changes made throughout the production phase.
 
