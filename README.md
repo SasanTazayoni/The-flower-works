@@ -1,4 +1,4 @@
-# The Flower Works
+![image](https://github.com/SasanTazayoni/The-flower-works/assets/80260775/96dcffa6-1c79-4217-b9b5-22872eabf003)# The Flower Works
 
 Welcome to The Flower Works README file! This has all the essential information about the florist business website.
 
@@ -79,17 +79,29 @@ The wireframes do not fully correspond with the end product due to multiple chan
    <br> ![Logo](assets/images/flowerworkslogo.png)
    <br> Small logo:
    <br> ![Logo](assets/images/flowerworkslogosmall.png)
-* Navigation bar icons have tooltips for clarity.
+* Instagram icon has a tooltip hover-effect for clarity.
+  <br> ![Tooltip screenshot](documentation/tooltip.png)
 * The drop-down menu on the navigation bar has small icons as bullet points that represent the text.
+  <br> ![Drop-down menu for small screens](documentation/dropdown.png)
 * All anchor links have a visual effect that brightens when hovered over.
+  <br> ![Anchor hover effect](documentation/anchorhover.png)
 * All buttons have a visual effect that brightens the text when hovered over as well as an additional ripple effect for aesthetics.
+  <br> ![Ripple hover effect on buttons](documentation/ripple.png)
 * All pages have a navigation button in the bottom right corner to be able to navigate to the top of the page which only appears when scrolling down from the navigation bar.
+  <br> ![Scroll up button](documentation/SS12.png)
 * The testimonials section on the home page features interactive buttons for switching between different testimonials, accompanied by tabs that indicate the corresponding testimonial numbers.
+  <br> Testimonials tabs:
+  <br> ![Testimonials tabs](documentation/testtabs.png)
+  <br> Testimonials buttons:
+  <br> ![Testimonials button left](documentation/testbtnleft.png) ![Testimonials button right](documentation/testbtnright.png)
 * The gallery page has been carefully engineered to showcase flowers on all viewports with a hover effect that elegantly reveals the name of the flowers.
+  <br> ![Gallery image hover effect](documentation/SS4.png)
 * When clicking on each flower image on the gallery page, a modal image is triggered, providing an enlarged and detailed view.
+  <br> ![Gallery modal](documentation/SS5.png)
 * The enquiries form on the contact page is integrated with the backend server, formspree.io. This integration facilitates efficient handling of enquiries, ensuring that they are directly forwarded to the company's designated email address.
+  <br> ![Enquiries form](documentation/SS7.png)
 * The contact page also features an embedded Google Maps location, providing a visual representation of the company's address for easy reference.
-
+  <br> ![Google maps](documentation/SS8.png)
 ## Future features
 
 * To enhance customer feedback and engagement, an optional reviews section can be integrated as an extension to the contact page, allowing customers to share their valuable reviews and experiences with the business.
