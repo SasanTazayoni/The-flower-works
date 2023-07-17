@@ -1,4 +1,4 @@
-![image](https://github.com/SasanTazayoni/The-flower-works/assets/80260775/96dcffa6-1c79-4217-b9b5-22872eabf003)# The Flower Works
+# The Flower Works
 
 Welcome to The Flower Works README file! This has all the essential information about the florist business website.
 
