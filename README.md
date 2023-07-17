@@ -8,7 +8,7 @@ The Flower Works is a renowned family-run florist specialising in exquisite flor
 
 The business currently has a website; however, it could be further improved with modern design elements and enhanced features, incorporating semantic elements to create a stronger and more impactful online presence. As a result, I have undertaken a comprehensive revamp, which you can explore [here](https://sasantazayoni.github.io/The-flower-works/).
 
-![The Flower Works website on all various devices](assets/images/readme/responsiveness.png)
+![The Flower Works website on all various devices](documentation/responsiveness.png)
 
 ## User Experience (UX)
 
@@ -25,7 +25,7 @@ The business currently has a website; however, it could be further improved with
 
 Colour scheme:
 
-![Color Swatches](assets/images/readme/colors.png)
+![Color Swatches](documentation/colors.png)
 
 This combination creates a visually appealing and captivating colour palette that is both vibrant and harmonious.
 
@@ -75,17 +75,60 @@ The wireframes do not fully correspond with the end product due to multiple chan
 * All pages are designed using Responsive Design and are fully responsive on all devices.
 * The navigation menu collapses on smaller viewports allowing for a more compact view.
 * The company logo only displays an icon in smaller viewports for simplicity.
-* Navigation bar icons have tooltips for clarity.
+   <br>
+   <br> Logo:
+   <br>
+   <br> ![Logo](assets/images/flowerworkslogo.png)
+   <br> Small logo:
+   <br>
+   <br> ![Logo](assets/images/flowerworkslogosmall.png)
+   <br>
+* Instagram icon has a tooltip hover-effect for clarity.
+  <br>
+  <br> ![Tooltip screenshot](documentation/tooltip.png)
+  <br>
 * The drop-down menu on the navigation bar has small icons as bullet points that represent the text.
+  <br>
+  <br> ![Drop-down menu for small screens](documentation/dropdown.png)
+  <br>
 * All anchor links have a visual effect that brightens when hovered over.
+  <br>
+  <br> ![Anchor hover effect](documentation/anchorhover.png)
+  <br>
 * All buttons have a visual effect that brightens the text when hovered over as well as an additional ripple effect for aesthetics.
+  <br>
+  <br> ![Ripple hover effect on buttons](documentation/ripple.png)
+  <br>
 * All pages have a navigation button in the bottom right corner to be able to navigate to the top of the page which only appears when scrolling down from the navigation bar.
+  <br>
+  <br> ![Scroll up button](documentation/SS12.png)
+  <br>
 * The testimonials section on the home page features interactive buttons for switching between different testimonials, accompanied by tabs that indicate the corresponding testimonial numbers.
+  <br>
+  <br> Testimonials tabs:
+  <br>
+  <br> ![Testimonials tabs](documentation/testtabs.png)
+  <br>
+  <br> Testimonials buttons:
+  <br>
+  <br> ![Testimonials button left](documentation/testbtnleft.png) ![Testimonials button right](documentation/testbtnright.png)
+  <br>
 * The gallery page has been carefully engineered to showcase flowers on all viewports with a hover effect that elegantly reveals the name of the flowers.
+  <br>
+  <br> ![Gallery image hover effect](documentation/SS4.png)
+  <br>
 * When clicking on each flower image on the gallery page, a modal image is triggered, providing an enlarged and detailed view.
+  <br>
+  <br> ![Gallery modal](documentation/SS5.png)
+  <br>
 * The enquiries form on the contact page is integrated with the backend server, formspree.io. This integration facilitates efficient handling of enquiries, ensuring that they are directly forwarded to the company's designated email address.
+  <br>
+  <br> ![Enquiries form](documentation/SS7.png)
+  <br>
 * The contact page also features an embedded Google Maps location, providing a visual representation of the company's address for easy reference.
-
+  <br>
+  <br> ![Google maps](documentation/SS8.png)
+  <br>
 ## Future features
 
 * To enhance customer feedback and engagement, an optional reviews section can be integrated as an extension to the contact page, allowing customers to share their valuable reviews and experiences with the business.
@@ -144,44 +187,56 @@ At the completion or heavy editing of sections, I used the following websites to
     * The hero image prominently conveys the essence of the business as a florist on the home page, while the logo effectively captures and represents the brand identity of the business. Furthermore, the name 'The       
 Flower Works' distinctly emphasizes and signifies the nature of the business.
     * Screenshot of the home page hero image:
-      ![Home page](assets/images/readme/SS1.png)
+      <br>
+      <br> ![Home page](documentation/SS1.png)
 
 * As a user, I want to be able to see the prices of products without having to search through various pages.
     * The pricing of flowers is determined based on the specific type of order or requested service. The home page provides an overview of the pricing, while the services page offers a comprehensive breakdown of the different pricing options available.
     * Screenshot of the pricing overview on the home page:
-      ![Home page price overview](assets/images/readme/SS2.png)
+      <br>
+      <br> ![Home page price overview](documentation/SS2.png)
     * Screenshot of the full pricing breakdown on the services page:
-      ![Services page pricing](assets/images/readme/SS3.png)
+      <br>
+      <br> ![Services page pricing](documentation/SS3.png)
 
 * As a user, I want to be able to browse through a variety of floral arrangements to see what is available to me.
     * The gallery page offers a comprehensive showcase of various floral arrangements, each accompanied by a dedicated large image for closer examination. It's important to note that while the gallery provides a rich display, it may not encompass the entirety of available options as certain flowers are subject to seasonal availability.
     * Screenshot of a part of the gallery page:
-      ![Gallery segment](assets/images/readme/SS4.png)
+      <br>
+      <br> ![Gallery segment](documentation/SS4.png)
     * Screenshot of the open modal:
-      <br />![Large image view (modal)](assets/images/readme/SS5.png)
+      <br>
+      <br> ![Large image view (modal)](documentation/SS5.png)
  
 * As a user, I want to be able to contact someone to ask specific questions and make delivery orders.
     * The contact page provides an email address, an enquiries form and a contact number along with the business' opening times for convenience.
     * Screenshot of contact card on contact page:
-      ![Contact card](assets/images/readme/SS6.png)
+      <br>
+      <br> ![Contact card](documentation/SS6.png)
     * Screenshot of enquiries form on contact page:
-      ![Enquiries form](assets/images/readme/SS7.png)
+      <br>
+      <br> ![Enquiries form](documentation/SS7.png)
   
 * As a user, I want to be able to be able to find the business location.
     * The contact page features an embedded Google Maps location that includes an image and the business address, allowing users to easily locate and navigate to our establishment.
     * Screenshot of Google Maps:
-      ![Google Maps](assets/images/readme/SS8.png)
+      <br>
+      <br> ![Google Maps](documentation/SS8.png)
 
 * As a user, I want to be able to navigate around the website easily.
     * In addition to the navigation links positioned at the top and bottom of every page, the website incorporates prominently labeled buttons for seamless navigation throughout the site. Furthermore, a conveniently located button in the bottom right corner allows users to effortlessly return to the top of each page.
     * Screenshot of navigation bar navigation links:
-      ![Navbar nav links](assets/images/readme/SS9.png)
+      <br>
+      <br> ![Navbar nav links](documentation/SS9.png)
     * Screenshot of footer navigation links:
-      ![Footer nav links](assets/images/readme/SS10.png)
+      <br>
+      <br> ![Footer nav links](documentation/SS10.png)
     * Screenshot of some buttons:
-      <br />![Example of buttons](assets/images/readme/SS11.png)
+    * <br>
+      <br> ![Example of buttons](documentation/SS11.png)
     * Screenshot of scroll up button:
-      <br />![Scroll up button](assets/images/readme/SS12.png)
+      <br>
+      <br> ![Scroll up button](documentation/SS12.png)
 
 ### Personal testing
 
@@ -235,7 +290,7 @@ One of the most helpful ways to test throughout the establishment of this websit
 
 Lighthouse was a helpful tool for checking where where the website was experiencing the most issues.
 
-![Scroll up button](assets/images/readme/lighthouse.png)
+![Scroll up button](documentation/lighthouse.png)
 
 The results indicate that the website is of excellent quality. There are a few issues that were raised:
 
@@ -245,7 +300,7 @@ The results indicate that the website is of excellent quality. There are a few i
 
 ### PowerMapper
 
-![PowerMapper report](assets/images/readme/powermapper.png)
+![PowerMapper report](documentation/powermapper.png)
 
 As the results show, the website is highly compatible across all browsers.
 
