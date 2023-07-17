@@ -6,7 +6,7 @@ Welcome to The Flower Works README file! This has all the essential information 
 
 The Flower Works is a renowned family-run florist specialising in exquisite floral arrangements and services. It is real business located in west London and has an online presence mainly via Instagram.
 
-The business currently has a website; however, it could benefit from enhanced features and a more contemporary design. As a result, I have undertaken a comprehensive revamp, which you can explore [here](https://sasantazayoni.github.io/The-flower-works/).
+The business currently has a website; however, it could be further improved with modern design elements and enhanced features, incorporating semantic elements to create a stronger and more impactful online presence. As a result, I have undertaken a comprehensive revamp, which you can explore [here](https://sasantazayoni.github.io/The-flower-works/).
 
 ![The Flower Works website on all various devices](assets/images/readme/responsiveness.png)
 
@@ -122,9 +122,9 @@ The wireframes do not fully correspond with the end product due to multiple chan
 * [AOS animations](https://github.com/michalsnik/aos) is a library used to offer dynamic JavaScript-based animations that can be utilised to create captivating visual effects, including smooth fade-ins and delightful flipping transitions throughout the website.
 * [Formspree](https://formspree.io/) used in the enquiries form to provide a backend, enabling efficient routing of email enquiries directly to the business owner.
 * [ChatGPT](https://chat.openai.com/) used to generate placeholder text and to verify code.
-* [Unsplash](https://unsplash.com/) used to obtain placeholder pictures.
-* [Pexels](https://www.pexels.com/) used to obtain placeholder pictures.
-* [The Flower Works Instagram](https://www.instagram.com/flowerworksw10/?hl=en-gb) used with permission from business owners for placeholder images.
+* [Unsplash](https://unsplash.com/) used to obtain placeholder pictures for the gallery and services page.
+* [Pexels](https://www.pexels.com/) used to obtain placeholder pictures for the gallery and services page, and the hero image on the home page.
+* [The Flower Works Instagram](https://www.instagram.com/flowerworksw10/?hl=en-gb) used with permission from business owners for placeholder images for the about and contact page.
 * [StackOverflow](https://stackoverflow.com/) used to problem solve and deal with queries.
 * [Cloudconvert](https://cloudconvert.com/) used to convert images to webp format.
 
