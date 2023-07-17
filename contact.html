@@ -65,13 +65,21 @@
                         <p>If your questions are not answered in our <a href="faq.html" class="bold">FAQ</a>
                             please contact us:</p>
                         <br>
-                        <p>Telephone: <span class="bold">0208 960 7114</span></p>
-                        <p>Email: <span class="bold"><a
-                                    href="mailto:theflowerworks@live.com">theflowerworks@live.com</a></span></p>
+                        <address>
+                            <p>Telephone: <span class="bold">0208 960 7114</span></p>
+                            <p>Email:
+                                <span class="bold">
+                                    <a href="mailto:theflowerworks@live.com">theflowerworks@live.com</a>
+                                </span>
+                            </p>
+                        </address>
                         <br>
                         <p>Our opening hours are:</p>
                         <br>
-                        <p><span class="bold"> Mondays - Fridays at 9AM - 3:30PM and Saturdays at 9AM - 1PM </span></p>
+                        <time>
+                            <span class="bold"> Mondays - Fridays at 9:00AM - 3:30PM <br>Saturdays at 9:00AM -
+                                1:00PM</span>
+                        </time>
                     </div>
                     <picture class="contact-card__image">
                         <img src="assets/images/contactcardplaceholder.webp" alt="picture of the business owner">
@@ -88,15 +96,18 @@
                     </header>
                     <div class="enquiries-form__content">
                         <form action="https://formspree.io/f/xyyqglnj" method="POST">
-                            <label for="fullname">Full name</label>
-                            <input type="text" id="fullname" name="fullname" placeholder="Full name" minlength="1"
-                                maxlength="40" required>
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" placeholder="Email" minlength="5" maxlength="40"
-                                required>
-                            <label for="enquiry">Your enquiry</label>
-                            <textarea name="enquiry" id="enquiry" placeholder="Your enquiry" minlength="10"
-                                maxlength="300" class="enquiries-form__textarea" required></textarea>
+                            <fieldset>
+                                <legend>Enter your details:</legend>
+                                <label for="fullname">Full name</label>
+                                <input type="text" id="fullname" name="fullname" placeholder="Full name" minlength="1"
+                                    maxlength="40" required>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Email" minlength="5"
+                                    maxlength="40" required>
+                                <label for="enquiry">Your enquiry</label>
+                                <textarea name="enquiry" id="enquiry" placeholder="Your enquiry" minlength="10"
+                                    maxlength="300" class="enquiries-form__textarea" required></textarea>
+                            </fieldset>
                             <div class="button__container">
                                 <button class="button" id="enquiry__submit-button" type="submit">Submit</button>
                                 <button class="button" id="enquiry__reset-button" type="reset">Clear</button>
