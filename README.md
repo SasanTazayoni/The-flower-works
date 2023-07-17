@@ -124,6 +124,7 @@ The wireframes do not fully correspond with the end product due to multiple chan
 * [ChatGPT](https://chat.openai.com/) used to generate placeholder text and to verify code.
 * [Unsplash](https://unsplash.com/) used to obtain placeholder pictures.
 * [Pexels](https://www.pexels.com/) used to obtain placeholder pictures.
+* [Instagram](
 * [StackOverflow](https://stackoverflow.com/) used to problem solve and deal with queries.
 * [Cloudconvert](https://cloudconvert.com/) used to convert images to webp format.
 
