@@ -8,7 +8,7 @@ The Flower Works is a renowned family-run florist specialising in exquisite flor
 
 The business currently has a website; however, it could be further improved with modern design elements and enhanced features, incorporating semantic elements to create a stronger and more impactful online presence. As a result, I have undertaken a comprehensive revamp, which you can explore [here](https://sasantazayoni.github.io/The-flower-works/).
 
-![The Flower Works website on all various devices](assets/images/readme/responsiveness.png)
+![The Flower Works website on all various devices](documentation/responsiveness.png)
 
 ## User Experience (UX)
 
@@ -25,7 +25,7 @@ The business currently has a website; however, it could be further improved with
 
 Colour scheme:
 
-![Color Swatches](assets/images/readme/colors.png)
+![Color Swatches](documentation/colors.png)
 
 This combination creates a visually appealing and captivating colour palette that is both vibrant and harmonious.
 
@@ -144,44 +144,44 @@ At the completion or heavy editing of sections, I used the following websites to
     * The hero image prominently conveys the essence of the business as a florist on the home page, while the logo effectively captures and represents the brand identity of the business. Furthermore, the name 'The       
 Flower Works' distinctly emphasizes and signifies the nature of the business.
     * Screenshot of the home page hero image:
-      ![Home page](assets/images/readme/SS1.png)
+      ![Home page](documentation/SS1.png)
 
 * As a user, I want to be able to see the prices of products without having to search through various pages.
     * The pricing of flowers is determined based on the specific type of order or requested service. The home page provides an overview of the pricing, while the services page offers a comprehensive breakdown of the different pricing options available.
     * Screenshot of the pricing overview on the home page:
-      ![Home page price overview](assets/images/readme/SS2.png)
+      ![Home page price overview](documentation/SS2.png)
     * Screenshot of the full pricing breakdown on the services page:
-      ![Services page pricing](assets/images/readme/SS3.png)
+      ![Services page pricing](documentation/SS3.png)
 
 * As a user, I want to be able to browse through a variety of floral arrangements to see what is available to me.
     * The gallery page offers a comprehensive showcase of various floral arrangements, each accompanied by a dedicated large image for closer examination. It's important to note that while the gallery provides a rich display, it may not encompass the entirety of available options as certain flowers are subject to seasonal availability.
     * Screenshot of a part of the gallery page:
-      ![Gallery segment](assets/images/readme/SS4.png)
+      ![Gallery segment](documentation/SS4.png)
     * Screenshot of the open modal:
-      <br />![Large image view (modal)](assets/images/readme/SS5.png)
+      <br />![Large image view (modal)](documentation/SS5.png)
  
 * As a user, I want to be able to contact someone to ask specific questions and make delivery orders.
     * The contact page provides an email address, an enquiries form and a contact number along with the business' opening times for convenience.
     * Screenshot of contact card on contact page:
-      ![Contact card](assets/images/readme/SS6.png)
+      ![Contact card](documentation/SS6.png)
     * Screenshot of enquiries form on contact page:
-      ![Enquiries form](assets/images/readme/SS7.png)
+      ![Enquiries form](documentation/SS7.png)
   
 * As a user, I want to be able to be able to find the business location.
     * The contact page features an embedded Google Maps location that includes an image and the business address, allowing users to easily locate and navigate to our establishment.
     * Screenshot of Google Maps:
-      ![Google Maps](assets/images/readme/SS8.png)
+      ![Google Maps](documentation/SS8.png)
 
 * As a user, I want to be able to navigate around the website easily.
     * In addition to the navigation links positioned at the top and bottom of every page, the website incorporates prominently labeled buttons for seamless navigation throughout the site. Furthermore, a conveniently located button in the bottom right corner allows users to effortlessly return to the top of each page.
     * Screenshot of navigation bar navigation links:
-      ![Navbar nav links](assets/images/readme/SS9.png)
+      ![Navbar nav links](documentation/SS9.png)
     * Screenshot of footer navigation links:
-      ![Footer nav links](assets/images/readme/SS10.png)
+      ![Footer nav links](documentation/SS10.png)
     * Screenshot of some buttons:
-      <br />![Example of buttons](assets/images/readme/SS11.png)
+      <br />![Example of buttons](documentation/SS11.png)
     * Screenshot of scroll up button:
-      <br />![Scroll up button](assets/images/readme/SS12.png)
+      <br />![Scroll up button](documentation/SS12.png)
 
 ### Personal testing
 
@@ -235,7 +235,7 @@ One of the most helpful ways to test throughout the establishment of this websit
 
 Lighthouse was a helpful tool for checking where where the website was experiencing the most issues.
 
-![Scroll up button](assets/images/readme/lighthouse.png)
+![Scroll up button](documentation/lighthouse.png)
 
 The results indicate that the website is of excellent quality. There are a few issues that were raised:
 
@@ -245,7 +245,7 @@ The results indicate that the website is of excellent quality. There are a few i
 
 ### PowerMapper
 
-![PowerMapper report](assets/images/readme/powermapper.png)
+![PowerMapper report](documentation/powermapper.png)
 
 As the results show, the website is highly compatible across all browsers.
 
