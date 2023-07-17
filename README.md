@@ -122,9 +122,9 @@ The wireframes do not fully correspond with the end product due to multiple chan
 * [AOS animations](https://github.com/michalsnik/aos) is a library used to offer dynamic JavaScript-based animations that can be utilised to create captivating visual effects, including smooth fade-ins and delightful flipping transitions throughout the website.
 * [Formspree](https://formspree.io/) used in the enquiries form to provide a backend, enabling efficient routing of email enquiries directly to the business owner.
 * [ChatGPT](https://chat.openai.com/) used to generate placeholder text and to verify code.
-* [Unsplash](https://unsplash.com/) used to obtain placeholder pictures.
-* [Pexels](https://www.pexels.com/) used to obtain placeholder pictures.
-* [The Flower Works Instagram](https://www.instagram.com/flowerworksw10/?hl=en-gb) used with permission from business owners for placeholder images.
+* [Unsplash](https://unsplash.com/) used to obtain placeholder pictures for the gallery and services page.
+* [Pexels](https://www.pexels.com/) used to obtain placeholder pictures for the gallery and services page, and the hero image on the home page.
+* [The Flower Works Instagram](https://www.instagram.com/flowerworksw10/?hl=en-gb) used with permission from business owners for placeholder images for the about and contact page.
 * [StackOverflow](https://stackoverflow.com/) used to problem solve and deal with queries.
 * [Cloudconvert](https://cloudconvert.com/) used to convert images to webp format.
 
