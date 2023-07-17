@@ -75,6 +75,10 @@ The wireframes do not fully correspond with the end product due to multiple chan
 * All pages are designed using Responsive Design and are fully responsive on all devices.
 * The navigation menu collapses on smaller viewports allowing for a more compact view.
 * The company logo only displays an icon in smaller viewports for simplicity.
+   Logo:
+   <br> ![Logo](assets/images/flowerworkslogo.png)
+   Small logo:
+  <br> ![Logo](assets/images/flowerworkslogosmall.png)
 * Navigation bar icons have tooltips for clarity.
 * The drop-down menu on the navigation bar has small icons as bullet points that represent the text.
 * All anchor links have a visual effect that brightens when hovered over.
