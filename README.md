@@ -119,7 +119,7 @@ The wireframes do not fully correspond with the end product due to multiple chan
 * [Photoshop](https://www.adobe.com/uk/products/photoshop/) used to resize photos.
 * [Tinypng](https://tinypng.com/) used to compress image files for better performance.
 * [Block-element-modifier naming convention](https://www.geeksforgeeks.org/understanding-the-css-bem-convention/) used for naming CSS classes.
-* [AOS animations](https://github.com/michalsnik/aos) offer dynamic JavaScript-based animations that can be utilised to create captivating visual effects, including smooth fade-ins and delightful flipping transitions throughout the website.
+* [AOS animations](https://github.com/michalsnik/aos) is a library used to offer dynamic JavaScript-based animations that can be utilised to create captivating visual effects, including smooth fade-ins and delightful flipping transitions throughout the website.
 * [Formspree](https://formspree.io/) used in the enquiries form to provide a backend, enabling efficient routing of email enquiries directly to the business owner.
 * [ChatGPT](https://chat.openai.com/) used to generate placeholder text and to verify code.
 * [Unsplash](https://unsplash.com/) used to obtain placeholder pictures.
